@@ -1,4 +1,4 @@
-# 2.8 Pull request and code review metrics
+# 2.9 Pull request and code review metrics
 
 ## Overview and motivation
 
@@ -63,7 +63,7 @@ persistently large median size as a signal worth addressing directly.
 Smaller pull requests are reviewed faster, reviewed more thoroughly (a
 reviewer can actually hold the whole change in their head), and are easier
 to revert if something goes wrong, connecting directly back to the
-batch-size principle behind deployment frequency in chapter 2.9. Encourage
+batch-size principle behind deployment frequency in chapter 2.10. Encourage
 splitting large changes into a sequence of smaller, independently reviewable
 pull requests wherever the work allows it.
 

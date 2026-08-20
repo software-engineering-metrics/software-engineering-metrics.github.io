@@ -86,7 +86,7 @@ just at the point of code generation
 Metric inflation from AI-assisted development is not confined to the
 coding stage; it can propagate through the whole cycle-time chain (chapter
 2.6): a larger volume of AI-generated pull requests can inflate pull
-request throughput metrics (chapter 2.8) even while the useful signal that
+request throughput metrics (chapter 2.9) even while the useful signal that
 metric was originally designed to capture, genuine team throughput, stays
 flat or even declines once review burden and correction cost are properly
 accounted for. Audit your full metric set for this propagation pattern, not

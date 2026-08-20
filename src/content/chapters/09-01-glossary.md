@@ -12,7 +12,7 @@ of one is a severe risk. See chapter 3.5.
 
 **Change failure rate.** The percentage of deployments that cause a
 production failure requiring remediation. One of the four DORA metrics.
-See chapter 2.9.
+See chapter 2.10.
 
 **Control chart.** A chart showing a metric's normal range of variation
 over time, used to distinguish a genuine shift from ordinary noise. See
@@ -33,11 +33,11 @@ organized around feedback loops, cognitive load, and flow state. See
 chapter 3.7.
 
 **Deployment frequency.** How often a team successfully releases to
-production. One of the four DORA metrics. See chapter 2.9.
+production. One of the four DORA metrics. See chapter 2.10.
 
 **DORA metrics.** Four metrics from the DevOps Research and Assessment
 programme: deployment frequency, lead time for changes, change failure
-rate, and failed deployment recovery time. See chapter 2.9.
+rate, and failed deployment recovery time. See chapter 2.10.
 
 **Error budget.** The allowed shortfall between a service level objective
 and 100% reliability, treated as a spendable resource. See chapter 6.1.
@@ -84,7 +84,7 @@ and highly complex, identified through hotspot analysis. See chapter 4.3.
 
 **Lead time for changes.** The time from a code change's first commit to
 its successful deployment in production. One of the four DORA metrics. See
-chapter 2.9.
+chapter 2.10.
 
 **Little's law.** The proof that the average number of items in a stable
 queue equals the average arrival rate multiplied by the average time an
@@ -103,7 +103,7 @@ to someone noticing it occurred. See chapter 6.2.
 
 **MTTR (mean time to recovery / mean time to resolve).** The time to fully
 restore service after a failure. Used both for deployment-caused failures
-(chapter 2.9) and general incidents (chapter 6.2).
+(chapter 2.10) and general incidents (chapter 6.2).
 
 **Mutation testing.** A technique that deliberately introduces small,
 artificial faults into code to check whether a test suite actually catches
@@ -116,6 +116,14 @@ chapter 1.3.
 **Outcome telemetry.** Continuous, instrumented measurement of real
 outcomes rather than activity or output. See chapter 7.4.
 
+**Percent complete and accurate (%C/A).** The percentage of units a
+downstream team can process without needing rework, from classical Lean
+value stream mapping. See chapter 2.8.
+
+**Process time (PT).** The actual hands-on time spent working on a single
+unit, distinct from time spent waiting, from classical Lean value stream
+mapping. See chapter 2.8.
+
 **Queueing theory.** The mathematical study of waiting lines, applied to
 delivery pipelines to explain how work in process, arrival rate, and
 utilization drive wait time. See chapter 2.7.
@@ -123,6 +131,10 @@ utilization drive wait time. See chapter 2.7.
 **ROI (return on investment).** The financial return of an initiative
 relative to its cost, built here from documented cost and outcome evidence
 rather than assumption. See chapter 5.5.
+
+**Rolled throughput yield.** The percent complete and accurate figures of
+every stage in a value stream multiplied together, revealing how rework
+compounds across a multi-stage pipeline. See chapter 2.8.
 
 **SLI (service level indicator).** A directly measured signal of a
 service's health, such as latency or error rate. See chapter 6.1.
@@ -137,6 +149,10 @@ Communication and collaboration, and Efficiency and flow. See chapter 3.1.
 **SRE (site reliability engineering).** The discipline, pioneered at
 Google, of applying software engineering approaches to operations and
 reliability. See chapter 6.1.
+
+**Takt time.** The maximum acceptable time to complete a unit of work to
+cleanly match customer demand, from classical Lean value stream mapping.
+See chapter 2.8.
 
 **Technical debt.** The accumulated cost of past shortcuts in a codebase,
 a metaphor for a manageable trade-off, not a shameful secret. See

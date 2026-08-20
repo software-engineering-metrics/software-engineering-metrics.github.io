@@ -150,19 +150,28 @@
           "part": 2,
           "chapter": 8,
           "decimal": "2.8",
-          "slug": "02-08-pull-request-and-code-review-metrics",
-          "title": "Pull request and code review metrics",
-          "heading": "2.8 Pull request and code review metrics",
-          "file": "chapters/02-08-pull-request-and-code-review-metrics.md"
+          "slug": "02-08-lean-value-stream-metrics",
+          "title": "Lean value stream metrics",
+          "heading": "2.8 Lean value stream metrics",
+          "file": "chapters/02-08-lean-value-stream-metrics.md"
         },
         {
           "part": 2,
           "chapter": 9,
           "decimal": "2.9",
-          "slug": "02-09-the-dora-metrics-framework",
+          "slug": "02-09-pull-request-and-code-review-metrics",
+          "title": "Pull request and code review metrics",
+          "heading": "2.9 Pull request and code review metrics",
+          "file": "chapters/02-09-pull-request-and-code-review-metrics.md"
+        },
+        {
+          "part": 2,
+          "chapter": 10,
+          "decimal": "2.10",
+          "slug": "02-10-the-dora-metrics-framework",
           "title": "The DORA metrics framework",
-          "heading": "2.9 The DORA metrics framework",
-          "file": "chapters/02-09-the-dora-metrics-framework.md"
+          "heading": "2.10 The DORA metrics framework",
+          "file": "chapters/02-10-the-dora-metrics-framework.md"
         }
       ]
     },
@@ -754,19 +763,28 @@
       "part": 2,
       "chapter": 8,
       "decimal": "2.8",
-      "slug": "02-08-pull-request-and-code-review-metrics",
-      "title": "Pull request and code review metrics",
-      "heading": "2.8 Pull request and code review metrics",
-      "file": "chapters/02-08-pull-request-and-code-review-metrics.md"
+      "slug": "02-08-lean-value-stream-metrics",
+      "title": "Lean value stream metrics",
+      "heading": "2.8 Lean value stream metrics",
+      "file": "chapters/02-08-lean-value-stream-metrics.md"
     },
     {
       "part": 2,
       "chapter": 9,
       "decimal": "2.9",
-      "slug": "02-09-the-dora-metrics-framework",
+      "slug": "02-09-pull-request-and-code-review-metrics",
+      "title": "Pull request and code review metrics",
+      "heading": "2.9 Pull request and code review metrics",
+      "file": "chapters/02-09-pull-request-and-code-review-metrics.md"
+    },
+    {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-the-dora-metrics-framework",
       "title": "The DORA metrics framework",
-      "heading": "2.9 The DORA metrics framework",
-      "file": "chapters/02-09-the-dora-metrics-framework.md"
+      "heading": "2.10 The DORA metrics framework",
+      "file": "chapters/02-10-the-dora-metrics-framework.md"
     },
     {
       "part": 3,
@@ -1314,19 +1332,28 @@
       "part": 2,
       "chapter": 8,
       "decimal": "2.8",
-      "slug": "02-08-pull-request-and-code-review-metrics",
-      "title": "Pull request and code review metrics",
-      "heading": "2.8 Pull request and code review metrics",
-      "file": "chapters/02-08-pull-request-and-code-review-metrics.md"
+      "slug": "02-08-lean-value-stream-metrics",
+      "title": "Lean value stream metrics",
+      "heading": "2.8 Lean value stream metrics",
+      "file": "chapters/02-08-lean-value-stream-metrics.md"
     },
     "2.9": {
       "part": 2,
       "chapter": 9,
       "decimal": "2.9",
-      "slug": "02-09-the-dora-metrics-framework",
+      "slug": "02-09-pull-request-and-code-review-metrics",
+      "title": "Pull request and code review metrics",
+      "heading": "2.9 Pull request and code review metrics",
+      "file": "chapters/02-09-pull-request-and-code-review-metrics.md"
+    },
+    "2.10": {
+      "part": 2,
+      "chapter": 10,
+      "decimal": "2.10",
+      "slug": "02-10-the-dora-metrics-framework",
       "title": "The DORA metrics framework",
-      "heading": "2.9 The DORA metrics framework",
-      "file": "chapters/02-09-the-dora-metrics-framework.md"
+      "heading": "2.10 The DORA metrics framework",
+      "file": "chapters/02-10-the-dora-metrics-framework.md"
     },
     "3.0": {
       "part": 3,
@@ -1752,6 +1779,7 @@
     "2.7",
     "2.8",
     "2.9",
+    "2.10",
     "3.0",
     "3.1",
     "3.2",
@@ -1868,6 +1896,6 @@
   ],
   "totals": {
     "parts": 9,
-    "chapters": 62
+    "chapters": 63
   }
 }

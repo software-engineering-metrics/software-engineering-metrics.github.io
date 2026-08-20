@@ -7,6 +7,12 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ### Changed
 
+- Added chapter 2.8, Lean value stream metrics (lead time, process time,
+  cycle time, percent complete and accurate, and takt time from classical
+  Lean value stream mapping, plus the rolled throughput yield calculation),
+  placed after queueing theory. Pull request and code review metrics moved
+  from 2.8 to 2.9, and the DORA metrics chapter moved from 2.9 to 2.10.
+  Updated every affected cross-reference across the book.
 - Renamed Part 2 from "Delivery and Flow Metrics" to "Flow Metrics" and
   reorganized it around Mik Kersten's Flow Framework. Added four new
   chapters: 2.1 The Flow Framework, 2.2 Flow items (features, defects,

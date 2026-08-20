@@ -15,9 +15,11 @@ lean manufacturing.
 
 This book uses the Flow Framework as Part 2's organizing structure. Chapter
 2.2 introduces its four flow items, chapters 2.3 and 2.4 introduce its five
-flow metrics, and chapter 2.9 covers the DORA metrics as a narrower,
-pipeline-focused reference framework this part no longer leads with. That
-is a deliberate choice, not a dismissal of DORA's research. DORA measures
+flow metrics, chapter 2.8 traces those metrics back to their origin in
+classical Lean value stream mapping, and chapter 2.10 covers the DORA
+metrics as a narrower, pipeline-focused reference framework this part no
+longer leads with. That is a deliberate choice, not a dismissal of DORA's
+research. DORA measures
 system throughput and stability with genuine statistical rigor, but it is
 silent on the question a business leader actually cares about most: given
 everything the engineering organization shipped this quarter, how much of
@@ -107,7 +109,7 @@ computed against a stale map quietly measures the wrong thing.
 
 | Approach | Pros | Cons |
 | --- | --- | --- |
-| Pipeline metrics only (DORA, chapter 2.9) | Simple, well-validated, cheap to instrument from existing CI/CD data | Silent on what kind of value is being delivered |
+| Pipeline metrics only (DORA, chapter 2.10) | Simple, well-validated, cheap to instrument from existing CI/CD data | Silent on what kind of value is being delivered |
 | Full Flow Framework adoption | Connects delivery to business strategy; makes value mix visible and negotiable | Requires an honest value stream map and consistent flow-item classification discipline |
 | Static, one-time value stream mapping | Cheap, quick to run as a workshop exercise | Goes stale quickly; produces a snapshot, not a live metric |
 | Continuous, tool-integrated value stream management | Live, always-current data; scales across many value streams | Requires real tooling integration work up front |

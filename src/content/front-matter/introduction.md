@@ -31,8 +31,9 @@ chapters interrelate; chapters **N.1, N.2, …** cover the topics in depth.
   ownership, data sources, and the statistical literacy every metrics
   programme needs.
 - **Part 2, Flow Metrics:** the Flow Framework, its flow items and five flow
-  metrics, cycle time, queueing theory, pull request and code review
-  metrics, and the DORA framework as a reference chapter.
+  metrics, cycle time, queueing theory, classical Lean value stream
+  metrics, pull request and code review metrics, and the DORA framework as
+  a reference chapter.
 - **Part 3, Developer Experience and the SPACE Framework:** the SPACE
   framework and its five dimensions, and how to run a developer experience
   survey without it becoming a popularity contest.

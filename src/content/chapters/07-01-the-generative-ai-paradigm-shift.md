@@ -20,7 +20,7 @@ incremental tooling change. A paradigm shift changes what your existing
 instruments actually measure, not just what values they report. A speedometer
 still measures speed after you change a car's engine; several of this
 book's metrics do not survive this transition so cleanly. Deployment
-frequency (chapter 2.9) can rise because AI accelerated genuinely valuable
+frequency (chapter 2.10) can rise because AI accelerated genuinely valuable
 work, or because AI made it trivially easy to generate many small, low-value
 changes; the number alone cannot distinguish the two anymore, in a way it
 mostly could, with appropriate caution, before. The same logic applies with
@@ -65,7 +65,7 @@ Go through your current dashboard and, for each metric, ask directly:
 would a team using AI assistance heavily but producing no more real value
 than before show an improved reading on this metric. Activity counts,
 commit frequency, and raw deployment frequency (without a paired stability
-guardrail, chapter 2.9) are the most exposed. Outcome metrics from Part 5,
+guardrail, chapter 2.10) are the most exposed. Outcome metrics from Part 5,
 escaped defect rate, feature adoption, business outcomes, are comparatively
 resilient, since they measure the actual result rather than the volume of
 activity that produced it.
@@ -73,23 +73,23 @@ activity that produced it.
 ### Re-examine deployment frequency and lead time specifically, with
 heightened guardrail attention
 
-Chapter 2.9 already warned about substitution gaming, splitting meaningful
+Chapter 2.10 already warned about substitution gaming, splitting meaningful
 work into trivial deploys to inflate the count. Generative AI makes this
 specific gaming pattern dramatically cheaper and easier to produce, even
 unintentionally, since AI-assisted trivial changes are now nearly free to
-generate. Tighten your change-failure-rate guardrail (chapter 2.9)
+generate. Tighten your change-failure-rate guardrail (chapter 2.10)
 specifically in proportion to how heavily a team has adopted AI-assisted
 development, and watch deploy size trends even more closely than before.
 
 ### Treat code review capacity as a new, critical bottleneck
 
 If AI assistance dramatically increases the volume of code proposed for
-review, the review stage (chapter 2.8), already often the largest
+review, the review stage (chapter 2.9), already often the largest
 wait-time contributor in the delivery pipeline, becomes an even sharper
 constraint. A reviewer asked to evaluate a much higher volume of
 AI-generated code at the same pace as before will inevitably either slow
 down the pipeline or reduce review depth, the exact rubber-stamp risk
-chapter 2.8 already warned about, now under significantly greater pressure.
+chapter 2.9 already warned about, now under significantly greater pressure.
 Monitor review depth and quality guardrails with heightened attention as
 AI-generated code volume rises.
 
@@ -153,7 +153,7 @@ organization's metrics honest.
 
 3. **Is our code review capacity keeping pace with any increase in
    AI-assisted code volume, or is review depth quietly eroding under
-   increased pressure?** Check review-stage metrics (chapter 2.8)
+   increased pressure?** Check review-stage metrics (chapter 2.9)
    specifically for signs of the rubber-stamp risk intensifying.
 
 4. **Do we tag defects by whether the originating code was substantially
@@ -255,13 +255,13 @@ metrics governance cadence.
   uncritically:** risks celebrating a metric that has quietly stopped
   correlating with real value.
 - **Reporting deployment frequency or output volume increases without the
-  paired stability guardrail:** repeats chapter 2.9's warning with
+  paired stability guardrail:** repeats chapter 2.10's warning with
   significantly higher stakes under AI-assisted development.
 - **Assuming AI-generated code carries the same defect profile as
   human-written code without checking:** an untested assumption that could
   be actively wrong.
 - **Letting review depth erode silently under increased AI-generated code
-  volume:** the rubber-stamp risk from chapter 2.8, intensified.
+  volume:** the rubber-stamp risk from chapter 2.9, intensified.
 - **Treating this shift as a one-time adjustment rather than an ongoing
   concern:** the tooling and its adoption patterns continue to evolve, and
   measurement practice needs to keep pace.

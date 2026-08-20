@@ -43,7 +43,7 @@ engineering statistic.
 - **Classification consistency is essential.** Two teams classifying
   severity differently produce numbers that cannot be fairly compared.
 - **This metric is exposed to definition gaming**, exactly like change
-  failure rate (chapter 2.9): narrowing what counts as a "defect" flatters
+  failure rate (chapter 2.10): narrowing what counts as a "defect" flatters
   the number without reducing real customer harm.
 - **Root-cause categorization turns a count into a diagnostic tool.**
   Knowing *why* defects escape is more actionable than knowing only how
@@ -154,7 +154,7 @@ metric connects to real customer impact.
 
 6. **Has our escaped defect rate ever improved suspiciously fast with no
    corresponding change in testing or review practice?** As with change
-   failure rate (chapter 2.9), this is the clearest sign that classification
+   failure rate (chapter 2.10), this is the clearest sign that classification
    criteria, not real risk, moved.
 
 ## Sector lens

@@ -18,7 +18,7 @@ This pairing is the same discipline chapter 1.2 asks of every metric family
 in this book: never report a speed number without the guardrail that shows
 what that speed cost. Flow velocity is this part's most direct generalization
 of a throughput metric, closer in spirit to deployment frequency (chapter
-2.9) than to any other single number in this book, but item-type-aware in a
+2.10) than to any other single number in this book, but item-type-aware in a
 way deployment frequency never was. Deployment frequency tells you how
 often code reaches production; flow velocity, paired with distribution,
 tells you how often value reaches production and what kind of value it is.
@@ -72,7 +72,7 @@ same view, always.
 Raw item count treats a one-line configuration change and a
 multi-week architectural migration as equivalent, which invites the same
 substitution gaming this book has already named for deployment frequency
-(chapter 2.9): splitting hard work into many small items inflates the count
+(chapter 2.10): splitting hard work into many small items inflates the count
 without delivering proportionally more. Where item sizes vary widely,
 weight velocity by a rough size or complexity estimate, or track average
 item size alongside the raw count, so a shrinking average size next to a
@@ -91,7 +91,7 @@ factory pattern.
 
 Two value streams with different item granularity, different team sizes,
 or different product phases are not directly comparable on raw velocity
-alone, the same fairness problem chapter 2.9 names for deployment frequency
+alone, the same fairness problem chapter 2.10 names for deployment frequency
 across teams. Use velocity for a value stream's own trend first, and only
 attempt cross-value-stream comparison after confirming genuinely comparable
 item definitions and granularity.

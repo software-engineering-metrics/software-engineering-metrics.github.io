@@ -15,7 +15,7 @@ context.
 The commercial engineering analytics tooling market has matured
 considerably, and many platforms now offer solid, largely automated
 instrumentation for the DORA metrics (Part 2), pull request and review
-data (chapter 2.8), and increasingly, developer experience survey
+data (chapter 2.9), and increasingly, developer experience survey
 infrastructure (chapter 3.7). This maturity has shifted the calculus for
 many organizations toward buying at least the foundational layer, but it
 has not eliminated the build option's genuine advantages for specific,
@@ -58,7 +58,7 @@ cost-benefit analysis alone would suggest.
 
 For metric families with mature, widely available commercial tooling,
 DORA metrics instrumentation (Part 2), pull request and code review
-analytics (chapter 2.8), and developer experience survey platforms
+analytics (chapter 2.9), and developer experience survey platforms
 (chapter 3.7), buying is usually the better economic choice for most
 organizations below a certain scale, since building equivalent
 infrastructure duplicates engineering effort many vendors have already

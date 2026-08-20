@@ -16,11 +16,14 @@ Use this as a quick lookup, not a substitute for the chapter itself.
 | Flow efficiency | Active work time / Total elapsed time x 100% | 2.5 |
 | Cycle time | Sum of stage durations: coding + pickup + review + test + deploy | 2.6 |
 | Utilization | Arrival rate / Service rate | 2.7 |
-| Time to first review | Time from pull request opened to first substantive reviewer response | 2.8 |
-| Deployment frequency | Count of successful production deployments per unit time | 2.9 |
-| Lead time for changes | Time from first commit to successful production deployment (report median and 90th percentile) | 2.9 |
-| Change failure rate | (Deployments causing a failure) / (Total deployments) x 100% | 2.9 |
-| Failed deployment recovery time | Time from failure detection to genuine service restoration | 2.9 |
+| Percent complete and accurate (%C/A) | (Units usable downstream without rework) / (Total units) x 100% | 2.8 |
+| Rolled throughput yield | %C/A of stage 1 x %C/A of stage 2 x ... x %C/A of stage N | 2.8 |
+| Takt time | Available working time / Customer demand over that period | 2.8 |
+| Time to first review | Time from pull request opened to first substantive reviewer response | 2.9 |
+| Deployment frequency | Count of successful production deployments per unit time | 2.10 |
+| Lead time for changes | Time from first commit to successful production deployment (report median and 90th percentile) | 2.10 |
+| Change failure rate | (Deployments causing a failure) / (Total deployments) x 100% | 2.10 |
+| Failed deployment recovery time | Time from failure detection to genuine service restoration | 2.10 |
 
 ## Developer experience (Part 3)
 

@@ -1,4 +1,4 @@
-# 2.9 The DORA metrics framework
+# 2.10 The DORA metrics framework
 
 ## Overview and motivation
 
@@ -121,7 +121,7 @@ makes them excellent for comparing pipeline performance across teams, but
 that same precision is scoped narrowly to the pipeline itself and says
 nothing about whether the right work is flowing through it. Resolve the
 tension by keeping DORA as a reference layer for pipeline health, chapter
-2.9's proper place in this book's structure, while using the Flow Framework
+2.10's proper place in this book's structure, while using the Flow Framework
 chapters earlier in this part for the business-facing question of value
 mix, rather than trying to make DORA answer a question it was never
 designed to.

@@ -65,7 +65,7 @@ unrelated concurrent changes.
 ### Measure cycle time and quality together, never AI assistance's speed
 claim alone
 
-Apply chapter 2.6's and chapter 2.9's discipline directly: track whether
+Apply chapter 2.6's and chapter 2.10's discipline directly: track whether
 AI-assisted work moves faster through the cycle-time stages, and
 simultaneously whether change failure rate or escaped defect rate (chapter
 5.1) for that work moves in the wrong direction. A genuine productivity
@@ -193,7 +193,7 @@ half its engineering teams as a deliberate pilot, holding the other half as
 a comparison group for one quarter before full rollout. The pilot group
 showed a genuine, statistically meaningful cycle-time improvement for
 well-defined, boilerplate-heavy tasks, but showed no measurable improvement,
-and a slightly elevated review-iteration count (chapter 2.8), for complex,
+and a slightly elevated review-iteration count (chapter 2.9), for complex,
 novel architectural work. This task-segmented finding, only visible because
 of the genuine comparison design and the task-category breakdown, led the
 company to specifically target AI assistance rollout messaging and training

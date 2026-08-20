@@ -18,7 +18,7 @@ not what is flowing through it. A team can post excellent DORA numbers
 while its actual delivered value has quietly drifted toward rework or away
 from the debt and risk work that protects a system's future. This part
 covers DORA in full, but as a single, consolidated reference chapter at the
-end (chapter 2.9), because the more urgent, more commonly missing question
+end (chapter 2.10), because the more urgent, more commonly missing question
 for most organizations is not "how fast is our pipeline" but "what is our
 pipeline actually delivering." Every chapter in this part still follows the
 same discipline established in Part 1: state the metric, name how it gets
@@ -56,12 +56,16 @@ is allocated the way leadership believes it is.
 - **2.7 Queueing theory:** The mathematics underneath flow load, flow time,
   cycle time, and work in process, and why wait time on a shared resource
   explodes as utilization approaches its limit.
-- **2.8 Pull request and code review metrics:** The metrics that live
+- **2.8 Lean value stream metrics:** The classical Lean toolkit, lead time,
+  process time, cycle time, percent complete and accurate, and takt time,
+  that this part's software-specific metrics descend from, and how to
+  bridge the two vocabularies.
+- **2.9 Pull request and code review metrics:** The metrics that live
   inside a single stage of the delivery pipeline, and how they can distort
   review quality if used carelessly.
-- **2.9 The DORA metrics framework:** The four DORA metrics in full, placed
-  last deliberately because they measure the pipeline, not the value
-  flowing through it.
+- **2.10 The DORA metrics framework:** The four DORA metrics in full,
+  placed last deliberately because they measure the pipeline, not the
+  value flowing through it.
 
 ## How these chapters interrelate
 
@@ -74,11 +78,14 @@ time specifically: flow efficiency and work in process explain why
 engineering stages are often slower than they look, cycle time decomposes
 that engineering portion into its stages, and queueing theory formalizes,
 in provable mathematical terms, why all of the preceding chapters' claims
-about load, wait time, and utilization are true. Chapter 2.8 covers the
-single pipeline stage most teams can improve fastest. Chapter 2.9 closes
-the part with the DORA metrics in full, presented as a well-evidenced but
-narrower reference layer once the broader, business-facing picture from the
-earlier chapters is already in view.
+about load, wait time, and utilization are true. Chapter 2.8 steps back to
+trace all of it to its origin in classical Lean value stream mapping, the
+common vocabulary this part's software-specific metrics generalize from.
+Chapter 2.9 covers the single pipeline stage most teams can improve
+fastest. Chapter 2.10 closes the part with the DORA metrics in full,
+presented as a well-evidenced but narrower reference layer once the
+broader, business-facing picture from the earlier chapters is already in
+view.
 
 This part's guardrail discipline connects directly back to chapter 1.2:
 flow velocity is never reported without flow distribution alongside it, and

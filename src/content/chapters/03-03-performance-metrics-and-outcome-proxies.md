@@ -52,7 +52,7 @@ outcomes-over-output principle applied to this specific dimension.
 ### Combine several converging signals rather than one performance score
 
 Draw performance evidence from multiple sources: change failure rate
-(chapter 2.9) and defect-escape rate (chapter 5.1) for quality, deployment
+(chapter 2.10) and defect-escape rate (chapter 5.1) for quality, deployment
 outcomes tied to actual feature adoption (chapter 5.2) for whether the work
 mattered, and qualitative peer or manager assessment of a team's
 contribution to strategic goals for context a pure metric cannot capture.
@@ -167,7 +167,7 @@ highly collaborative small team where credit and blame rarely belong to
 just one individual.
 
 **Small business.** Combine whatever delivery and quality data you already
-have (chapter 2.9, chapter 5.1) with direct, honest conversation about
+have (chapter 2.10, chapter 5.1) with direct, honest conversation about
 whether recent work actually helped the business, rather than building
 formal multi-signal instrumentation you lack the capacity to maintain.
 

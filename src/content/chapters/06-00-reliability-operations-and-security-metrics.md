@@ -59,7 +59,7 @@ unmeasured, tends to receive attention only reactively, after an incident,
 rather than proactively.
 
 This part connects directly back to Part 2: DORA's change failure rate and
-failed deployment recovery time (both covered in chapter 2.9) are,
+failed deployment recovery time (both covered in chapter 2.10) are,
 respectively, a leading indicator for and an instance of this part's
 incident metrics. It
 also connects forward to Part 8, where the dashboard and program-maturity

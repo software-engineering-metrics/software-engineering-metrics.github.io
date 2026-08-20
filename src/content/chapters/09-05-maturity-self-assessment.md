@@ -41,8 +41,9 @@ programme maturity is the minimum across dimensions, not the average.
 | 2.5 | Flow efficiency and WIP management | |
 | 2.6 | Cycle-time decomposition and diagnosis | |
 | 2.7 | Queueing theory applied to shared-resource utilization | |
-| 2.8 | Pull request and review metrics, quality-guarded | |
-| 2.9 | DORA framework adoption, paired and system-level | |
+| 2.8 | Lean value stream metrics, mapped and rolled up | |
+| 2.9 | Pull request and review metrics, quality-guarded | |
+| 2.10 | DORA framework adoption, paired and system-level | |
 
 ## Part 3: Developer Experience and the SPACE Framework
 

@@ -6,7 +6,7 @@
   <title>Software Engineering Metrics</title>
   <meta
     name="description"
-    content="A book about measuring software engineering well: {manifest.totals.parts} parts, {manifest.totals.chapters} chapters spanning DORA, SPACE, code quality, product and business outcomes, reliability and security, and the AI era."
+    content="A book about measuring software engineering well: {manifest.totals.parts} parts, {manifest.totals.chapters} chapters spanning the Flow Framework, the SPACE framework, queueing theory, and DORA metrics, code quality, product and business outcomes, reliability and security, and the AI era."
   />
 </svelte:head>
 
@@ -14,9 +14,10 @@
   <p class="hero-eyebrow">Free · open · specification-driven</p>
   <h1>Measure software engineering well.</h1>
   <p class="hero-tagline">
-    A working book on choosing metrics that reflect real outcomes rather than activity: the DORA
-    and SPACE frameworks, code and quality metrics, product and business outcomes, reliability and
-    security, and how generative AI is reshaping what these numbers mean.
+    A working book on choosing metrics that reflect real outcomes rather than activity: the Flow
+    Framework, the SPACE framework, queueing theory, and DORA metrics, code and quality metrics,
+    product and business outcomes, reliability and security, and how generative AI is reshaping
+    what these numbers mean.
   </p>
   <div class="button-row">
     <a class="button button-primary" href="/front-matter/what-are-software-engineering-metrics/">Start reading</a>

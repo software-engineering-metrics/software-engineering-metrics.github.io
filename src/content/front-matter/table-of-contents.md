@@ -21,8 +21,9 @@ each part). See also the [Introduction](introduction.md).
 - [2.5 Flow efficiency and work in process](../chapters/02-05-flow-efficiency-and-work-in-process.md)
 - [2.6 Cycle time and its components](../chapters/02-06-cycle-time-and-its-components.md)
 - [2.7 Queueing theory](../chapters/02-07-queueing-theory.md)
-- [2.8 Pull request and code review metrics](../chapters/02-08-pull-request-and-code-review-metrics.md)
-- [2.9 The DORA metrics framework](../chapters/02-09-the-dora-metrics-framework.md)
+- [2.8 Lean value stream metrics](../chapters/02-08-lean-value-stream-metrics.md)
+- [2.9 Pull request and code review metrics](../chapters/02-09-pull-request-and-code-review-metrics.md)
+- [2.10 The DORA metrics framework](../chapters/02-10-the-dora-metrics-framework.md)
 
 ### Part 3: Developer Experience and the SPACE Framework
 - [3.0 Introduction](../chapters/03-00-developer-experience-and-space.md)

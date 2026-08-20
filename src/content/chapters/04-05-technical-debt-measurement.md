@@ -195,7 +195,7 @@ backlog, estimating fix cost and carrying cost for each item, and allocated
 a fixed 15% of engineering capacity to debt remediation going forward. Within
 a year, the top five highest-carrying-cost items, representing a small
 fraction of the total backlog by count, had been resolved, and change
-failure rate (chapter 2.9) for billing-related deploys measurably improved,
+failure rate (chapter 2.10) for billing-related deploys measurably improved,
 demonstrating the disproportionate impact of targeting the highest-carrying-cost
 items first rather than working through the backlog in arbitrary order.
 

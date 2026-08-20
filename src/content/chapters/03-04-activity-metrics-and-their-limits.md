@@ -76,7 +76,7 @@ activity data interpretable rather than misleading.
 ### Prefer quality-adjacent activity signals over raw volume
 
 Where activity data is useful at all, prefer signals adjusted for quality
-over raw counts: pull request size relative to review depth (chapter 2.8),
+over raw counts: pull request size relative to review depth (chapter 2.9),
 or the ratio of new code to code removed, which can reveal whether a team is
 accumulating complexity or actively simplifying. These adjusted signals are
 still activity-dimension data but resist the crudest gaming that raw counts
@@ -89,7 +89,7 @@ substitution pattern: splitting genuinely meaningful work into many small,
 trivial events to inflate a count. If commit or pull request frequency
 rises while the underlying complexity or size of changes falls sharply,
 investigate before crediting a real productivity improvement, using the
-same diagnostic discipline chapter 2.9 recommends for deployment frequency.
+same diagnostic discipline chapter 2.10 recommends for deployment frequency.
 
 ### Explicitly name and discourage activity theater
 

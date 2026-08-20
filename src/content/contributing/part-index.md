@@ -7,7 +7,7 @@ is `spec/structure.md` at the repository root.
 | Part | Title | Chapters (including the N.0 introduction) |
 | --- | --- | --- |
 | 1 | Foundations of Measurement | 7 |
-| 2 | Flow Metrics | 10 |
+| 2 | Flow Metrics | 11 |
 | 3 | Developer Experience and the SPACE Framework | 8 |
 | 4 | Code and Quality Metrics | 7 |
 | 5 | Product and Business Metrics | 6 |
@@ -16,4 +16,4 @@ is `spec/structure.md` at the repository root.
 | 8 | Building a Metrics Program | 6 |
 | 9 | Appendices | 8 |
 
-Total: 9 parts, 62 chapters.
+Total: 9 parts, 63 chapters.

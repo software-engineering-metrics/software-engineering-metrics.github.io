@@ -78,7 +78,7 @@ each one runs as a proportion of its available capacity, before you plan to
 run it near its limit. A shared reviewer group running near full capacity
 produces review-queue wait times that grow far faster than the modest
 increase in demand that caused them, exactly the dynamic behind chapter
-2.8's advice to watch time-to-first-review as a leading indicator.
+2.9's advice to watch time-to-first-review as a leading indicator.
 
 ### Separate arrival rate, success rate, failure rate, and skip rate
 
@@ -204,7 +204,7 @@ it reaches the gate.
 ## Examples
 
 **Enterprise.** A cloud infrastructure provider's internal platform team
-noticed that lead time for changes (chapter 2.9) had crept upward across
+noticed that lead time for changes (chapter 2.10) had crept upward across
 every product team that depended on its shared CI fleet, even though no
 individual team had changed how it worked. A utilization analysis found
 the fleet running above 90% busy during core hours, well past the point

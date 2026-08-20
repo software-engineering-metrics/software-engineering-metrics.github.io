@@ -54,7 +54,7 @@ only through attrition.
 
 Measure how many pages each individual on-call engineer receives, not just
 a team-wide average that can hide severe concentration. Similar to chapter
-3.5's bus-factor and chapter 2.8's reviewer-load concerns, on-call load
+3.5's bus-factor and chapter 2.9's reviewer-load concerns, on-call load
 often concentrates on a small number of experienced people who can resolve
 incidents fastest, precisely the pattern that creates both burnout risk and
 a dangerous single point of failure. Rebalance rotations deliberately when

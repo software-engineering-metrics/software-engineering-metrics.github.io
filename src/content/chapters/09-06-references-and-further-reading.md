@@ -52,6 +52,15 @@ theme; many works are cited from multiple chapters.
   2018.
 - Rother, Mike, and John Shook. *Learning to See: Value Stream Mapping to
   Create Value and Eliminate Muda*. Lean Enterprise Institute, 1999.
+- Womack, James P., and Daniel T. Jones. *Lean Thinking: Banish Waste and
+  Create Wealth in Your Corporation*. Free Press, 1996.
+- Womack, James P., Daniel T. Jones, and Daniel Roos. *The Machine That
+  Changed the World*. Free Press, 1990.
+- George, Michael L. *Lean Six Sigma for Service: How to Use Lean Speed
+  and Six Sigma Quality to Improve Services and Transactions*.
+  McGraw-Hill, 2003.
+- Ohno, Taiichi. *Toyota Production System: Beyond Large-Scale Production*.
+  Productivity Press, 1988.
 - Kim, Gene, Kevin Behr, and George Spafford. *The Phoenix Project*. IT
   Revolution Press, 2013.
 - Kim, Gene, Jez Humble, Patrick Debois, and John Willis. *The DevOps

@@ -164,7 +164,7 @@ resisting the pull toward activity-only metrics as the team starts to grow
 past the size where informal awareness covers everything.
 
 **Small business.** Without a dedicated people-analytics function, keep it
-simple: pair whatever delivery data you already have (chapter 2.9) with a
+simple: pair whatever delivery data you already have (chapter 2.10) with a
 short, informal, regular check-in on satisfaction, even a simple one-question
 pulse survey. That minimal pairing already captures the framework's core
 discipline far better than an activity-only dashboard.

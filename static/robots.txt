@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://software-engineering-metrics.github.io/sitemap.xml

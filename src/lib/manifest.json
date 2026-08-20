@@ -1,0 +1,1845 @@
+{
+  "generatedBy": "scripts/generate-manifest.mjs",
+  "parts": [
+    {
+      "number": 1,
+      "title": "Foundations of Measurement",
+      "chapters": [
+        {
+          "part": 1,
+          "chapter": 0,
+          "decimal": "1.0",
+          "slug": "01-00-foundations-of-measurement",
+          "title": "Introduction to Part 1: Foundations of Measurement",
+          "heading": "1.0 Introduction to Part 1: Foundations of Measurement",
+          "file": "chapters/01-00-foundations-of-measurement.md"
+        },
+        {
+          "part": 1,
+          "chapter": 1,
+          "decimal": "1.1",
+          "slug": "01-01-why-measure-software-engineering",
+          "title": "Why measure software engineering",
+          "heading": "1.1 Why measure software engineering",
+          "file": "chapters/01-01-why-measure-software-engineering.md"
+        },
+        {
+          "part": 1,
+          "chapter": 2,
+          "decimal": "1.2",
+          "slug": "01-02-goodharts-law-and-the-psychology-of-metrics",
+          "title": "Goodhart's law and the psychology of metrics",
+          "heading": "1.2 Goodhart's law and the psychology of metrics",
+          "file": "chapters/01-02-goodharts-law-and-the-psychology-of-metrics.md"
+        },
+        {
+          "part": 1,
+          "chapter": 3,
+          "decimal": "1.3",
+          "slug": "01-03-outcomes-over-output",
+          "title": "Outcomes over output: choosing what to measure",
+          "heading": "1.3 Outcomes over output: choosing what to measure",
+          "file": "chapters/01-03-outcomes-over-output.md"
+        },
+        {
+          "part": 1,
+          "chapter": 4,
+          "decimal": "1.4",
+          "slug": "01-04-metrics-governance-and-ownership",
+          "title": "Metrics governance and ownership",
+          "heading": "1.4 Metrics governance and ownership",
+          "file": "chapters/01-04-metrics-governance-and-ownership.md"
+        },
+        {
+          "part": 1,
+          "chapter": 5,
+          "decimal": "1.5",
+          "slug": "01-05-data-sources-and-instrumentation",
+          "title": "Data sources and instrumentation",
+          "heading": "1.5 Data sources and instrumentation",
+          "file": "chapters/01-05-data-sources-and-instrumentation.md"
+        },
+        {
+          "part": 1,
+          "chapter": 6,
+          "decimal": "1.6",
+          "slug": "01-06-statistical-literacy-for-engineering-metrics",
+          "title": "Statistical literacy for engineering metrics",
+          "heading": "1.6 Statistical literacy for engineering metrics",
+          "file": "chapters/01-06-statistical-literacy-for-engineering-metrics.md"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Delivery and Flow Metrics",
+      "chapters": [
+        {
+          "part": 2,
+          "chapter": 0,
+          "decimal": "2.0",
+          "slug": "02-00-delivery-and-flow-metrics",
+          "title": "Introduction to Part 2: Delivery and Flow Metrics",
+          "heading": "2.0 Introduction to Part 2: Delivery and Flow Metrics",
+          "file": "chapters/02-00-delivery-and-flow-metrics.md"
+        },
+        {
+          "part": 2,
+          "chapter": 1,
+          "decimal": "2.1",
+          "slug": "02-01-the-dora-metrics-framework",
+          "title": "The DORA metrics framework",
+          "heading": "2.1 The DORA metrics framework",
+          "file": "chapters/02-01-the-dora-metrics-framework.md"
+        },
+        {
+          "part": 2,
+          "chapter": 2,
+          "decimal": "2.2",
+          "slug": "02-02-deployment-frequency",
+          "title": "Deployment frequency",
+          "heading": "2.2 Deployment frequency",
+          "file": "chapters/02-02-deployment-frequency.md"
+        },
+        {
+          "part": 2,
+          "chapter": 3,
+          "decimal": "2.3",
+          "slug": "02-03-lead-time-for-changes",
+          "title": "Lead time for changes",
+          "heading": "2.3 Lead time for changes",
+          "file": "chapters/02-03-lead-time-for-changes.md"
+        },
+        {
+          "part": 2,
+          "chapter": 4,
+          "decimal": "2.4",
+          "slug": "02-04-change-failure-rate",
+          "title": "Change failure rate",
+          "heading": "2.4 Change failure rate",
+          "file": "chapters/02-04-change-failure-rate.md"
+        },
+        {
+          "part": 2,
+          "chapter": 5,
+          "decimal": "2.5",
+          "slug": "02-05-failed-deployment-recovery-time",
+          "title": "Failed deployment recovery time",
+          "heading": "2.5 Failed deployment recovery time",
+          "file": "chapters/02-05-failed-deployment-recovery-time.md"
+        },
+        {
+          "part": 2,
+          "chapter": 6,
+          "decimal": "2.6",
+          "slug": "02-06-cycle-time-and-its-components",
+          "title": "Cycle time and its components",
+          "heading": "2.6 Cycle time and its components",
+          "file": "chapters/02-06-cycle-time-and-its-components.md"
+        },
+        {
+          "part": 2,
+          "chapter": 7,
+          "decimal": "2.7",
+          "slug": "02-07-flow-efficiency-and-work-in-process",
+          "title": "Flow efficiency and work in process",
+          "heading": "2.7 Flow efficiency and work in process",
+          "file": "chapters/02-07-flow-efficiency-and-work-in-process.md"
+        },
+        {
+          "part": 2,
+          "chapter": 8,
+          "decimal": "2.8",
+          "slug": "02-08-pull-request-and-code-review-metrics",
+          "title": "Pull request and code review metrics",
+          "heading": "2.8 Pull request and code review metrics",
+          "file": "chapters/02-08-pull-request-and-code-review-metrics.md"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Developer Experience and the SPACE Framework",
+      "chapters": [
+        {
+          "part": 3,
+          "chapter": 0,
+          "decimal": "3.0",
+          "slug": "03-00-developer-experience-and-space",
+          "title": "Introduction to Part 3: Developer Experience and the SPACE Framework",
+          "heading": "3.0 Introduction to Part 3: Developer Experience and the SPACE Framework",
+          "file": "chapters/03-00-developer-experience-and-space.md"
+        },
+        {
+          "part": 3,
+          "chapter": 1,
+          "decimal": "3.1",
+          "slug": "03-01-the-space-framework",
+          "title": "The SPACE framework",
+          "heading": "3.1 The SPACE framework",
+          "file": "chapters/03-01-the-space-framework.md"
+        },
+        {
+          "part": 3,
+          "chapter": 2,
+          "decimal": "3.2",
+          "slug": "03-02-satisfaction-and-well-being-metrics",
+          "title": "Satisfaction and well-being metrics",
+          "heading": "3.2 Satisfaction and well-being metrics",
+          "file": "chapters/03-02-satisfaction-and-well-being-metrics.md"
+        },
+        {
+          "part": 3,
+          "chapter": 3,
+          "decimal": "3.3",
+          "slug": "03-03-performance-metrics-and-outcome-proxies",
+          "title": "Performance metrics and outcome proxies",
+          "heading": "3.3 Performance metrics and outcome proxies",
+          "file": "chapters/03-03-performance-metrics-and-outcome-proxies.md"
+        },
+        {
+          "part": 3,
+          "chapter": 4,
+          "decimal": "3.4",
+          "slug": "03-04-activity-metrics-and-their-limits",
+          "title": "Activity metrics and their limits",
+          "heading": "3.4 Activity metrics and their limits",
+          "file": "chapters/03-04-activity-metrics-and-their-limits.md"
+        },
+        {
+          "part": 3,
+          "chapter": 5,
+          "decimal": "3.5",
+          "slug": "03-05-communication-and-collaboration-metrics",
+          "title": "Communication and collaboration metrics",
+          "heading": "3.5 Communication and collaboration metrics",
+          "file": "chapters/03-05-communication-and-collaboration-metrics.md"
+        },
+        {
+          "part": 3,
+          "chapter": 6,
+          "decimal": "3.6",
+          "slug": "03-06-efficiency-and-flow",
+          "title": "Efficiency and flow: deep work and interruptions",
+          "heading": "3.6 Efficiency and flow: deep work and interruptions",
+          "file": "chapters/03-06-efficiency-and-flow.md"
+        },
+        {
+          "part": 3,
+          "chapter": 7,
+          "decimal": "3.7",
+          "slug": "03-07-developer-experience-surveys-and-devex-metrics",
+          "title": "Developer experience surveys and DevEx metrics",
+          "heading": "3.7 Developer experience surveys and DevEx metrics",
+          "file": "chapters/03-07-developer-experience-surveys-and-devex-metrics.md"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Code and Quality Metrics",
+      "chapters": [
+        {
+          "part": 4,
+          "chapter": 0,
+          "decimal": "4.0",
+          "slug": "04-00-code-and-quality-metrics",
+          "title": "Introduction to Part 4: Code and Quality Metrics",
+          "heading": "4.0 Introduction to Part 4: Code and Quality Metrics",
+          "file": "chapters/04-00-code-and-quality-metrics.md"
+        },
+        {
+          "part": 4,
+          "chapter": 1,
+          "decimal": "4.1",
+          "slug": "04-01-code-complexity-metrics",
+          "title": "Code complexity metrics",
+          "heading": "4.1 Code complexity metrics",
+          "file": "chapters/04-01-code-complexity-metrics.md"
+        },
+        {
+          "part": 4,
+          "chapter": 2,
+          "decimal": "4.2",
+          "slug": "04-02-test-coverage-and-test-effectiveness",
+          "title": "Test coverage and test effectiveness",
+          "heading": "4.2 Test coverage and test effectiveness",
+          "file": "chapters/04-02-test-coverage-and-test-effectiveness.md"
+        },
+        {
+          "part": 4,
+          "chapter": 3,
+          "decimal": "4.3",
+          "slug": "04-03-code-churn-and-hotspot-analysis",
+          "title": "Code churn and hotspot analysis",
+          "heading": "4.3 Code churn and hotspot analysis",
+          "file": "chapters/04-03-code-churn-and-hotspot-analysis.md"
+        },
+        {
+          "part": 4,
+          "chapter": 4,
+          "decimal": "4.4",
+          "slug": "04-04-static-analysis-and-code-smell-metrics",
+          "title": "Static analysis and code smell metrics",
+          "heading": "4.4 Static analysis and code smell metrics",
+          "file": "chapters/04-04-static-analysis-and-code-smell-metrics.md"
+        },
+        {
+          "part": 4,
+          "chapter": 5,
+          "decimal": "4.5",
+          "slug": "04-05-technical-debt-measurement",
+          "title": "Technical debt measurement",
+          "heading": "4.5 Technical debt measurement",
+          "file": "chapters/04-05-technical-debt-measurement.md"
+        },
+        {
+          "part": 4,
+          "chapter": 6,
+          "decimal": "4.6",
+          "slug": "04-06-documentation-and-knowledge-metrics",
+          "title": "Documentation and knowledge metrics",
+          "heading": "4.6 Documentation and knowledge metrics",
+          "file": "chapters/04-06-documentation-and-knowledge-metrics.md"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Product and Business Metrics",
+      "chapters": [
+        {
+          "part": 5,
+          "chapter": 0,
+          "decimal": "5.0",
+          "slug": "05-00-product-and-business-metrics",
+          "title": "Introduction to Part 5: Product and Business Metrics",
+          "heading": "5.0 Introduction to Part 5: Product and Business Metrics",
+          "file": "chapters/05-00-product-and-business-metrics.md"
+        },
+        {
+          "part": 5,
+          "chapter": 1,
+          "decimal": "5.1",
+          "slug": "05-01-escaped-defect-rate-and-quality-escapes",
+          "title": "Escaped defect rate and quality escapes",
+          "heading": "5.1 Escaped defect rate and quality escapes",
+          "file": "chapters/05-01-escaped-defect-rate-and-quality-escapes.md"
+        },
+        {
+          "part": 5,
+          "chapter": 2,
+          "decimal": "5.2",
+          "slug": "05-02-feature-adoption-and-usage-metrics",
+          "title": "Feature adoption and usage metrics",
+          "heading": "5.2 Feature adoption and usage metrics",
+          "file": "chapters/05-02-feature-adoption-and-usage-metrics.md"
+        },
+        {
+          "part": 5,
+          "chapter": 3,
+          "decimal": "5.3",
+          "slug": "05-03-customer-and-business-outcome-metrics",
+          "title": "Customer and business outcome metrics",
+          "heading": "5.3 Customer and business outcome metrics",
+          "file": "chapters/05-03-customer-and-business-outcome-metrics.md"
+        },
+        {
+          "part": 5,
+          "chapter": 4,
+          "decimal": "5.4",
+          "slug": "05-04-cost-and-unit-economics-of-engineering",
+          "title": "Cost and unit economics of engineering",
+          "heading": "5.4 Cost and unit economics of engineering",
+          "file": "chapters/05-04-cost-and-unit-economics-of-engineering.md"
+        },
+        {
+          "part": 5,
+          "chapter": 5,
+          "decimal": "5.5",
+          "slug": "05-05-return-on-investment-for-engineering-initiatives",
+          "title": "Return on investment for engineering initiatives",
+          "heading": "5.5 Return on investment for engineering initiatives",
+          "file": "chapters/05-05-return-on-investment-for-engineering-initiatives.md"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Reliability, Operations, and Security Metrics",
+      "chapters": [
+        {
+          "part": 6,
+          "chapter": 0,
+          "decimal": "6.0",
+          "slug": "06-00-reliability-operations-and-security-metrics",
+          "title": "Introduction to Part 6: Reliability, Operations, and Security Metrics",
+          "heading": "6.0 Introduction to Part 6: Reliability, Operations, and Security Metrics",
+          "file": "chapters/06-00-reliability-operations-and-security-metrics.md"
+        },
+        {
+          "part": 6,
+          "chapter": 1,
+          "decimal": "6.1",
+          "slug": "06-01-slis-slos-and-error-budgets",
+          "title": "Service level indicators, objectives, and error budgets",
+          "heading": "6.1 Service level indicators, objectives, and error budgets",
+          "file": "chapters/06-01-slis-slos-and-error-budgets.md"
+        },
+        {
+          "part": 6,
+          "chapter": 2,
+          "decimal": "6.2",
+          "slug": "06-02-incident-metrics",
+          "title": "Incident metrics: detection, response, and recovery",
+          "heading": "6.2 Incident metrics: detection, response, and recovery",
+          "file": "chapters/06-02-incident-metrics.md"
+        },
+        {
+          "part": 6,
+          "chapter": 3,
+          "decimal": "6.3",
+          "slug": "06-03-on-call-capacity-and-operational-load-metrics",
+          "title": "On-call, capacity, and operational load metrics",
+          "heading": "6.3 On-call, capacity, and operational load metrics",
+          "file": "chapters/06-03-on-call-capacity-and-operational-load-metrics.md"
+        },
+        {
+          "part": 6,
+          "chapter": 4,
+          "decimal": "6.4",
+          "slug": "06-04-security-and-vulnerability-management-metrics",
+          "title": "Security and vulnerability management metrics",
+          "heading": "6.4 Security and vulnerability management metrics",
+          "file": "chapters/06-04-security-and-vulnerability-management-metrics.md"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Metrics in the Age of AI",
+      "chapters": [
+        {
+          "part": 7,
+          "chapter": 0,
+          "decimal": "7.0",
+          "slug": "07-00-metrics-in-the-age-of-ai",
+          "title": "Introduction to Part 7: Metrics in the Age of AI",
+          "heading": "7.0 Introduction to Part 7: Metrics in the Age of AI",
+          "file": "chapters/07-00-metrics-in-the-age-of-ai.md"
+        },
+        {
+          "part": 7,
+          "chapter": 1,
+          "decimal": "7.1",
+          "slug": "07-01-the-generative-ai-paradigm-shift",
+          "title": "The generative AI paradigm shift",
+          "heading": "7.1 The generative AI paradigm shift",
+          "file": "chapters/07-01-the-generative-ai-paradigm-shift.md"
+        },
+        {
+          "part": 7,
+          "chapter": 2,
+          "decimal": "7.2",
+          "slug": "07-02-measuring-ai-assisted-software-development",
+          "title": "Measuring AI-assisted software development",
+          "heading": "7.2 Measuring AI-assisted software development",
+          "file": "chapters/07-02-measuring-ai-assisted-software-development.md"
+        },
+        {
+          "part": 7,
+          "chapter": 3,
+          "decimal": "7.3",
+          "slug": "07-03-metric-inflation-and-quality-dilution-risks",
+          "title": "Metric inflation and quality dilution risks",
+          "heading": "7.3 Metric inflation and quality dilution risks",
+          "file": "chapters/07-03-metric-inflation-and-quality-dilution-risks.md"
+        },
+        {
+          "part": 7,
+          "chapter": 4,
+          "decimal": "7.4",
+          "slug": "07-04-outcome-telemetry-as-the-new-north-star",
+          "title": "Outcome telemetry as the new north star",
+          "heading": "7.4 Outcome telemetry as the new north star",
+          "file": "chapters/07-04-outcome-telemetry-as-the-new-north-star.md"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Building a Metrics Program",
+      "chapters": [
+        {
+          "part": 8,
+          "chapter": 0,
+          "decimal": "8.0",
+          "slug": "08-00-building-a-metrics-program",
+          "title": "Introduction to Part 8: Building a Metrics Program",
+          "heading": "8.0 Introduction to Part 8: Building a Metrics Program",
+          "file": "chapters/08-00-building-a-metrics-program.md"
+        },
+        {
+          "part": 8,
+          "chapter": 1,
+          "decimal": "8.1",
+          "slug": "08-01-designing-an-engineering-metrics-dashboard",
+          "title": "Designing an engineering metrics dashboard",
+          "heading": "8.1 Designing an engineering metrics dashboard",
+          "file": "chapters/08-01-designing-an-engineering-metrics-dashboard.md"
+        },
+        {
+          "part": 8,
+          "chapter": 2,
+          "decimal": "8.2",
+          "slug": "08-02-tooling-landscape-build-versus-buy",
+          "title": "Tooling landscape: build versus buy",
+          "heading": "8.2 Tooling landscape: build versus buy",
+          "file": "chapters/08-02-tooling-landscape-build-versus-buy.md"
+        },
+        {
+          "part": 8,
+          "chapter": 3,
+          "decimal": "8.3",
+          "slug": "08-03-rolling-out-metrics-without-breeding-fear",
+          "title": "Rolling out metrics without breeding fear",
+          "heading": "8.3 Rolling out metrics without breeding fear",
+          "file": "chapters/08-03-rolling-out-metrics-without-breeding-fear.md"
+        },
+        {
+          "part": 8,
+          "chapter": 4,
+          "decimal": "8.4",
+          "slug": "08-04-maturity-model-for-engineering-metrics-programs",
+          "title": "Maturity model for engineering metrics programs",
+          "heading": "8.4 Maturity model for engineering metrics programs",
+          "file": "chapters/08-04-maturity-model-for-engineering-metrics-programs.md"
+        },
+        {
+          "part": 8,
+          "chapter": 5,
+          "decimal": "8.5",
+          "slug": "08-05-an-incremental-adoption-roadmap",
+          "title": "An incremental adoption roadmap",
+          "heading": "8.5 An incremental adoption roadmap",
+          "file": "chapters/08-05-an-incremental-adoption-roadmap.md"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "title": "Appendices",
+      "chapters": [
+        {
+          "part": 9,
+          "chapter": 0,
+          "decimal": "9.0",
+          "slug": "09-00-appendices",
+          "title": "Appendices",
+          "heading": "9.0 Appendices",
+          "file": "chapters/09-00-appendices.md"
+        },
+        {
+          "part": 9,
+          "chapter": 1,
+          "decimal": "9.1",
+          "slug": "09-01-glossary",
+          "title": "Glossary",
+          "heading": "9.1 Glossary",
+          "file": "chapters/09-01-glossary.md"
+        },
+        {
+          "part": 9,
+          "chapter": 2,
+          "decimal": "9.2",
+          "slug": "09-02-metric-definitions-and-formulas-reference",
+          "title": "Metric definitions and formulas reference",
+          "heading": "9.2 Metric definitions and formulas reference",
+          "file": "chapters/09-02-metric-definitions-and-formulas-reference.md"
+        },
+        {
+          "part": 9,
+          "chapter": 3,
+          "decimal": "9.3",
+          "slug": "09-03-checklists",
+          "title": "Checklists",
+          "heading": "9.3 Checklists",
+          "file": "chapters/09-03-checklists.md"
+        },
+        {
+          "part": 9,
+          "chapter": 4,
+          "decimal": "9.4",
+          "slug": "09-04-templates",
+          "title": "Templates",
+          "heading": "9.4 Templates",
+          "file": "chapters/09-04-templates.md"
+        },
+        {
+          "part": 9,
+          "chapter": 5,
+          "decimal": "9.5",
+          "slug": "09-05-maturity-self-assessment",
+          "title": "Maturity self-assessment",
+          "heading": "9.5 Maturity self-assessment",
+          "file": "chapters/09-05-maturity-self-assessment.md"
+        },
+        {
+          "part": 9,
+          "chapter": 6,
+          "decimal": "9.6",
+          "slug": "09-06-references-and-further-reading",
+          "title": "References and further reading",
+          "heading": "9.6 References and further reading",
+          "file": "chapters/09-06-references-and-further-reading.md"
+        },
+        {
+          "part": 9,
+          "chapter": 7,
+          "decimal": "9.7",
+          "slug": "09-07-index",
+          "title": "Index",
+          "heading": "9.7 Index",
+          "file": "chapters/09-07-index.md"
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-foundations-of-measurement",
+      "title": "Introduction to Part 1: Foundations of Measurement",
+      "heading": "1.0 Introduction to Part 1: Foundations of Measurement",
+      "file": "chapters/01-00-foundations-of-measurement.md"
+    },
+    {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-why-measure-software-engineering",
+      "title": "Why measure software engineering",
+      "heading": "1.1 Why measure software engineering",
+      "file": "chapters/01-01-why-measure-software-engineering.md"
+    },
+    {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodharts-law-and-the-psychology-of-metrics",
+      "title": "Goodhart's law and the psychology of metrics",
+      "heading": "1.2 Goodhart's law and the psychology of metrics",
+      "file": "chapters/01-02-goodharts-law-and-the-psychology-of-metrics.md"
+    },
+    {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-outcomes-over-output",
+      "title": "Outcomes over output: choosing what to measure",
+      "heading": "1.3 Outcomes over output: choosing what to measure",
+      "file": "chapters/01-03-outcomes-over-output.md"
+    },
+    {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-metrics-governance-and-ownership",
+      "title": "Metrics governance and ownership",
+      "heading": "1.4 Metrics governance and ownership",
+      "file": "chapters/01-04-metrics-governance-and-ownership.md"
+    },
+    {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-data-sources-and-instrumentation",
+      "title": "Data sources and instrumentation",
+      "heading": "1.5 Data sources and instrumentation",
+      "file": "chapters/01-05-data-sources-and-instrumentation.md"
+    },
+    {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statistical-literacy-for-engineering-metrics",
+      "title": "Statistical literacy for engineering metrics",
+      "heading": "1.6 Statistical literacy for engineering metrics",
+      "file": "chapters/01-06-statistical-literacy-for-engineering-metrics.md"
+    },
+    {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-delivery-and-flow-metrics",
+      "title": "Introduction to Part 2: Delivery and Flow Metrics",
+      "heading": "2.0 Introduction to Part 2: Delivery and Flow Metrics",
+      "file": "chapters/02-00-delivery-and-flow-metrics.md"
+    },
+    {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-the-dora-metrics-framework",
+      "title": "The DORA metrics framework",
+      "heading": "2.1 The DORA metrics framework",
+      "file": "chapters/02-01-the-dora-metrics-framework.md"
+    },
+    {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-deployment-frequency",
+      "title": "Deployment frequency",
+      "heading": "2.2 Deployment frequency",
+      "file": "chapters/02-02-deployment-frequency.md"
+    },
+    {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-lead-time-for-changes",
+      "title": "Lead time for changes",
+      "heading": "2.3 Lead time for changes",
+      "file": "chapters/02-03-lead-time-for-changes.md"
+    },
+    {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-change-failure-rate",
+      "title": "Change failure rate",
+      "heading": "2.4 Change failure rate",
+      "file": "chapters/02-04-change-failure-rate.md"
+    },
+    {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-failed-deployment-recovery-time",
+      "title": "Failed deployment recovery time",
+      "heading": "2.5 Failed deployment recovery time",
+      "file": "chapters/02-05-failed-deployment-recovery-time.md"
+    },
+    {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-cycle-time-and-its-components",
+      "title": "Cycle time and its components",
+      "heading": "2.6 Cycle time and its components",
+      "file": "chapters/02-06-cycle-time-and-its-components.md"
+    },
+    {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-flow-efficiency-and-work-in-process",
+      "title": "Flow efficiency and work in process",
+      "heading": "2.7 Flow efficiency and work in process",
+      "file": "chapters/02-07-flow-efficiency-and-work-in-process.md"
+    },
+    {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-pull-request-and-code-review-metrics",
+      "title": "Pull request and code review metrics",
+      "heading": "2.8 Pull request and code review metrics",
+      "file": "chapters/02-08-pull-request-and-code-review-metrics.md"
+    },
+    {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-developer-experience-and-space",
+      "title": "Introduction to Part 3: Developer Experience and the SPACE Framework",
+      "heading": "3.0 Introduction to Part 3: Developer Experience and the SPACE Framework",
+      "file": "chapters/03-00-developer-experience-and-space.md"
+    },
+    {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-the-space-framework",
+      "title": "The SPACE framework",
+      "heading": "3.1 The SPACE framework",
+      "file": "chapters/03-01-the-space-framework.md"
+    },
+    {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-satisfaction-and-well-being-metrics",
+      "title": "Satisfaction and well-being metrics",
+      "heading": "3.2 Satisfaction and well-being metrics",
+      "file": "chapters/03-02-satisfaction-and-well-being-metrics.md"
+    },
+    {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-performance-metrics-and-outcome-proxies",
+      "title": "Performance metrics and outcome proxies",
+      "heading": "3.3 Performance metrics and outcome proxies",
+      "file": "chapters/03-03-performance-metrics-and-outcome-proxies.md"
+    },
+    {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-activity-metrics-and-their-limits",
+      "title": "Activity metrics and their limits",
+      "heading": "3.4 Activity metrics and their limits",
+      "file": "chapters/03-04-activity-metrics-and-their-limits.md"
+    },
+    {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-communication-and-collaboration-metrics",
+      "title": "Communication and collaboration metrics",
+      "heading": "3.5 Communication and collaboration metrics",
+      "file": "chapters/03-05-communication-and-collaboration-metrics.md"
+    },
+    {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efficiency-and-flow",
+      "title": "Efficiency and flow: deep work and interruptions",
+      "heading": "3.6 Efficiency and flow: deep work and interruptions",
+      "file": "chapters/03-06-efficiency-and-flow.md"
+    },
+    {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-developer-experience-surveys-and-devex-metrics",
+      "title": "Developer experience surveys and DevEx metrics",
+      "heading": "3.7 Developer experience surveys and DevEx metrics",
+      "file": "chapters/03-07-developer-experience-surveys-and-devex-metrics.md"
+    },
+    {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-code-and-quality-metrics",
+      "title": "Introduction to Part 4: Code and Quality Metrics",
+      "heading": "4.0 Introduction to Part 4: Code and Quality Metrics",
+      "file": "chapters/04-00-code-and-quality-metrics.md"
+    },
+    {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-code-complexity-metrics",
+      "title": "Code complexity metrics",
+      "heading": "4.1 Code complexity metrics",
+      "file": "chapters/04-01-code-complexity-metrics.md"
+    },
+    {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-test-coverage-and-test-effectiveness",
+      "title": "Test coverage and test effectiveness",
+      "heading": "4.2 Test coverage and test effectiveness",
+      "file": "chapters/04-02-test-coverage-and-test-effectiveness.md"
+    },
+    {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-code-churn-and-hotspot-analysis",
+      "title": "Code churn and hotspot analysis",
+      "heading": "4.3 Code churn and hotspot analysis",
+      "file": "chapters/04-03-code-churn-and-hotspot-analysis.md"
+    },
+    {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-static-analysis-and-code-smell-metrics",
+      "title": "Static analysis and code smell metrics",
+      "heading": "4.4 Static analysis and code smell metrics",
+      "file": "chapters/04-04-static-analysis-and-code-smell-metrics.md"
+    },
+    {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-technical-debt-measurement",
+      "title": "Technical debt measurement",
+      "heading": "4.5 Technical debt measurement",
+      "file": "chapters/04-05-technical-debt-measurement.md"
+    },
+    {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-documentation-and-knowledge-metrics",
+      "title": "Documentation and knowledge metrics",
+      "heading": "4.6 Documentation and knowledge metrics",
+      "file": "chapters/04-06-documentation-and-knowledge-metrics.md"
+    },
+    {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-product-and-business-metrics",
+      "title": "Introduction to Part 5: Product and Business Metrics",
+      "heading": "5.0 Introduction to Part 5: Product and Business Metrics",
+      "file": "chapters/05-00-product-and-business-metrics.md"
+    },
+    {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-escaped-defect-rate-and-quality-escapes",
+      "title": "Escaped defect rate and quality escapes",
+      "heading": "5.1 Escaped defect rate and quality escapes",
+      "file": "chapters/05-01-escaped-defect-rate-and-quality-escapes.md"
+    },
+    {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-feature-adoption-and-usage-metrics",
+      "title": "Feature adoption and usage metrics",
+      "heading": "5.2 Feature adoption and usage metrics",
+      "file": "chapters/05-02-feature-adoption-and-usage-metrics.md"
+    },
+    {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-customer-and-business-outcome-metrics",
+      "title": "Customer and business outcome metrics",
+      "heading": "5.3 Customer and business outcome metrics",
+      "file": "chapters/05-03-customer-and-business-outcome-metrics.md"
+    },
+    {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-cost-and-unit-economics-of-engineering",
+      "title": "Cost and unit economics of engineering",
+      "heading": "5.4 Cost and unit economics of engineering",
+      "file": "chapters/05-04-cost-and-unit-economics-of-engineering.md"
+    },
+    {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-return-on-investment-for-engineering-initiatives",
+      "title": "Return on investment for engineering initiatives",
+      "heading": "5.5 Return on investment for engineering initiatives",
+      "file": "chapters/05-05-return-on-investment-for-engineering-initiatives.md"
+    },
+    {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-reliability-operations-and-security-metrics",
+      "title": "Introduction to Part 6: Reliability, Operations, and Security Metrics",
+      "heading": "6.0 Introduction to Part 6: Reliability, Operations, and Security Metrics",
+      "file": "chapters/06-00-reliability-operations-and-security-metrics.md"
+    },
+    {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-slis-slos-and-error-budgets",
+      "title": "Service level indicators, objectives, and error budgets",
+      "heading": "6.1 Service level indicators, objectives, and error budgets",
+      "file": "chapters/06-01-slis-slos-and-error-budgets.md"
+    },
+    {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-incident-metrics",
+      "title": "Incident metrics: detection, response, and recovery",
+      "heading": "6.2 Incident metrics: detection, response, and recovery",
+      "file": "chapters/06-02-incident-metrics.md"
+    },
+    {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-on-call-capacity-and-operational-load-metrics",
+      "title": "On-call, capacity, and operational load metrics",
+      "heading": "6.3 On-call, capacity, and operational load metrics",
+      "file": "chapters/06-03-on-call-capacity-and-operational-load-metrics.md"
+    },
+    {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-security-and-vulnerability-management-metrics",
+      "title": "Security and vulnerability management metrics",
+      "heading": "6.4 Security and vulnerability management metrics",
+      "file": "chapters/06-04-security-and-vulnerability-management-metrics.md"
+    },
+    {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrics-in-the-age-of-ai",
+      "title": "Introduction to Part 7: Metrics in the Age of AI",
+      "heading": "7.0 Introduction to Part 7: Metrics in the Age of AI",
+      "file": "chapters/07-00-metrics-in-the-age-of-ai.md"
+    },
+    {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-the-generative-ai-paradigm-shift",
+      "title": "The generative AI paradigm shift",
+      "heading": "7.1 The generative AI paradigm shift",
+      "file": "chapters/07-01-the-generative-ai-paradigm-shift.md"
+    },
+    {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-measuring-ai-assisted-software-development",
+      "title": "Measuring AI-assisted software development",
+      "heading": "7.2 Measuring AI-assisted software development",
+      "file": "chapters/07-02-measuring-ai-assisted-software-development.md"
+    },
+    {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-metric-inflation-and-quality-dilution-risks",
+      "title": "Metric inflation and quality dilution risks",
+      "heading": "7.3 Metric inflation and quality dilution risks",
+      "file": "chapters/07-03-metric-inflation-and-quality-dilution-risks.md"
+    },
+    {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-outcome-telemetry-as-the-new-north-star",
+      "title": "Outcome telemetry as the new north star",
+      "heading": "7.4 Outcome telemetry as the new north star",
+      "file": "chapters/07-04-outcome-telemetry-as-the-new-north-star.md"
+    },
+    {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-building-a-metrics-program",
+      "title": "Introduction to Part 8: Building a Metrics Program",
+      "heading": "8.0 Introduction to Part 8: Building a Metrics Program",
+      "file": "chapters/08-00-building-a-metrics-program.md"
+    },
+    {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-designing-an-engineering-metrics-dashboard",
+      "title": "Designing an engineering metrics dashboard",
+      "heading": "8.1 Designing an engineering metrics dashboard",
+      "file": "chapters/08-01-designing-an-engineering-metrics-dashboard.md"
+    },
+    {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-tooling-landscape-build-versus-buy",
+      "title": "Tooling landscape: build versus buy",
+      "heading": "8.2 Tooling landscape: build versus buy",
+      "file": "chapters/08-02-tooling-landscape-build-versus-buy.md"
+    },
+    {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-rolling-out-metrics-without-breeding-fear",
+      "title": "Rolling out metrics without breeding fear",
+      "heading": "8.3 Rolling out metrics without breeding fear",
+      "file": "chapters/08-03-rolling-out-metrics-without-breeding-fear.md"
+    },
+    {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-maturity-model-for-engineering-metrics-programs",
+      "title": "Maturity model for engineering metrics programs",
+      "heading": "8.4 Maturity model for engineering metrics programs",
+      "file": "chapters/08-04-maturity-model-for-engineering-metrics-programs.md"
+    },
+    {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-an-incremental-adoption-roadmap",
+      "title": "An incremental adoption roadmap",
+      "heading": "8.5 An incremental adoption roadmap",
+      "file": "chapters/08-05-an-incremental-adoption-roadmap.md"
+    },
+    {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-appendices",
+      "title": "Appendices",
+      "heading": "9.0 Appendices",
+      "file": "chapters/09-00-appendices.md"
+    },
+    {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glossary",
+      "title": "Glossary",
+      "heading": "9.1 Glossary",
+      "file": "chapters/09-01-glossary.md"
+    },
+    {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-metric-definitions-and-formulas-reference",
+      "title": "Metric definitions and formulas reference",
+      "heading": "9.2 Metric definitions and formulas reference",
+      "file": "chapters/09-02-metric-definitions-and-formulas-reference.md"
+    },
+    {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-checklists",
+      "title": "Checklists",
+      "heading": "9.3 Checklists",
+      "file": "chapters/09-03-checklists.md"
+    },
+    {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-templates",
+      "title": "Templates",
+      "heading": "9.4 Templates",
+      "file": "chapters/09-04-templates.md"
+    },
+    {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-maturity-self-assessment",
+      "title": "Maturity self-assessment",
+      "heading": "9.5 Maturity self-assessment",
+      "file": "chapters/09-05-maturity-self-assessment.md"
+    },
+    {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-references-and-further-reading",
+      "title": "References and further reading",
+      "heading": "9.6 References and further reading",
+      "file": "chapters/09-06-references-and-further-reading.md"
+    },
+    {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-index",
+      "title": "Index",
+      "heading": "9.7 Index",
+      "file": "chapters/09-07-index.md"
+    }
+  ],
+  "chaptersByDecimal": {
+    "1.0": {
+      "part": 1,
+      "chapter": 0,
+      "decimal": "1.0",
+      "slug": "01-00-foundations-of-measurement",
+      "title": "Introduction to Part 1: Foundations of Measurement",
+      "heading": "1.0 Introduction to Part 1: Foundations of Measurement",
+      "file": "chapters/01-00-foundations-of-measurement.md"
+    },
+    "1.1": {
+      "part": 1,
+      "chapter": 1,
+      "decimal": "1.1",
+      "slug": "01-01-why-measure-software-engineering",
+      "title": "Why measure software engineering",
+      "heading": "1.1 Why measure software engineering",
+      "file": "chapters/01-01-why-measure-software-engineering.md"
+    },
+    "1.2": {
+      "part": 1,
+      "chapter": 2,
+      "decimal": "1.2",
+      "slug": "01-02-goodharts-law-and-the-psychology-of-metrics",
+      "title": "Goodhart's law and the psychology of metrics",
+      "heading": "1.2 Goodhart's law and the psychology of metrics",
+      "file": "chapters/01-02-goodharts-law-and-the-psychology-of-metrics.md"
+    },
+    "1.3": {
+      "part": 1,
+      "chapter": 3,
+      "decimal": "1.3",
+      "slug": "01-03-outcomes-over-output",
+      "title": "Outcomes over output: choosing what to measure",
+      "heading": "1.3 Outcomes over output: choosing what to measure",
+      "file": "chapters/01-03-outcomes-over-output.md"
+    },
+    "1.4": {
+      "part": 1,
+      "chapter": 4,
+      "decimal": "1.4",
+      "slug": "01-04-metrics-governance-and-ownership",
+      "title": "Metrics governance and ownership",
+      "heading": "1.4 Metrics governance and ownership",
+      "file": "chapters/01-04-metrics-governance-and-ownership.md"
+    },
+    "1.5": {
+      "part": 1,
+      "chapter": 5,
+      "decimal": "1.5",
+      "slug": "01-05-data-sources-and-instrumentation",
+      "title": "Data sources and instrumentation",
+      "heading": "1.5 Data sources and instrumentation",
+      "file": "chapters/01-05-data-sources-and-instrumentation.md"
+    },
+    "1.6": {
+      "part": 1,
+      "chapter": 6,
+      "decimal": "1.6",
+      "slug": "01-06-statistical-literacy-for-engineering-metrics",
+      "title": "Statistical literacy for engineering metrics",
+      "heading": "1.6 Statistical literacy for engineering metrics",
+      "file": "chapters/01-06-statistical-literacy-for-engineering-metrics.md"
+    },
+    "2.0": {
+      "part": 2,
+      "chapter": 0,
+      "decimal": "2.0",
+      "slug": "02-00-delivery-and-flow-metrics",
+      "title": "Introduction to Part 2: Delivery and Flow Metrics",
+      "heading": "2.0 Introduction to Part 2: Delivery and Flow Metrics",
+      "file": "chapters/02-00-delivery-and-flow-metrics.md"
+    },
+    "2.1": {
+      "part": 2,
+      "chapter": 1,
+      "decimal": "2.1",
+      "slug": "02-01-the-dora-metrics-framework",
+      "title": "The DORA metrics framework",
+      "heading": "2.1 The DORA metrics framework",
+      "file": "chapters/02-01-the-dora-metrics-framework.md"
+    },
+    "2.2": {
+      "part": 2,
+      "chapter": 2,
+      "decimal": "2.2",
+      "slug": "02-02-deployment-frequency",
+      "title": "Deployment frequency",
+      "heading": "2.2 Deployment frequency",
+      "file": "chapters/02-02-deployment-frequency.md"
+    },
+    "2.3": {
+      "part": 2,
+      "chapter": 3,
+      "decimal": "2.3",
+      "slug": "02-03-lead-time-for-changes",
+      "title": "Lead time for changes",
+      "heading": "2.3 Lead time for changes",
+      "file": "chapters/02-03-lead-time-for-changes.md"
+    },
+    "2.4": {
+      "part": 2,
+      "chapter": 4,
+      "decimal": "2.4",
+      "slug": "02-04-change-failure-rate",
+      "title": "Change failure rate",
+      "heading": "2.4 Change failure rate",
+      "file": "chapters/02-04-change-failure-rate.md"
+    },
+    "2.5": {
+      "part": 2,
+      "chapter": 5,
+      "decimal": "2.5",
+      "slug": "02-05-failed-deployment-recovery-time",
+      "title": "Failed deployment recovery time",
+      "heading": "2.5 Failed deployment recovery time",
+      "file": "chapters/02-05-failed-deployment-recovery-time.md"
+    },
+    "2.6": {
+      "part": 2,
+      "chapter": 6,
+      "decimal": "2.6",
+      "slug": "02-06-cycle-time-and-its-components",
+      "title": "Cycle time and its components",
+      "heading": "2.6 Cycle time and its components",
+      "file": "chapters/02-06-cycle-time-and-its-components.md"
+    },
+    "2.7": {
+      "part": 2,
+      "chapter": 7,
+      "decimal": "2.7",
+      "slug": "02-07-flow-efficiency-and-work-in-process",
+      "title": "Flow efficiency and work in process",
+      "heading": "2.7 Flow efficiency and work in process",
+      "file": "chapters/02-07-flow-efficiency-and-work-in-process.md"
+    },
+    "2.8": {
+      "part": 2,
+      "chapter": 8,
+      "decimal": "2.8",
+      "slug": "02-08-pull-request-and-code-review-metrics",
+      "title": "Pull request and code review metrics",
+      "heading": "2.8 Pull request and code review metrics",
+      "file": "chapters/02-08-pull-request-and-code-review-metrics.md"
+    },
+    "3.0": {
+      "part": 3,
+      "chapter": 0,
+      "decimal": "3.0",
+      "slug": "03-00-developer-experience-and-space",
+      "title": "Introduction to Part 3: Developer Experience and the SPACE Framework",
+      "heading": "3.0 Introduction to Part 3: Developer Experience and the SPACE Framework",
+      "file": "chapters/03-00-developer-experience-and-space.md"
+    },
+    "3.1": {
+      "part": 3,
+      "chapter": 1,
+      "decimal": "3.1",
+      "slug": "03-01-the-space-framework",
+      "title": "The SPACE framework",
+      "heading": "3.1 The SPACE framework",
+      "file": "chapters/03-01-the-space-framework.md"
+    },
+    "3.2": {
+      "part": 3,
+      "chapter": 2,
+      "decimal": "3.2",
+      "slug": "03-02-satisfaction-and-well-being-metrics",
+      "title": "Satisfaction and well-being metrics",
+      "heading": "3.2 Satisfaction and well-being metrics",
+      "file": "chapters/03-02-satisfaction-and-well-being-metrics.md"
+    },
+    "3.3": {
+      "part": 3,
+      "chapter": 3,
+      "decimal": "3.3",
+      "slug": "03-03-performance-metrics-and-outcome-proxies",
+      "title": "Performance metrics and outcome proxies",
+      "heading": "3.3 Performance metrics and outcome proxies",
+      "file": "chapters/03-03-performance-metrics-and-outcome-proxies.md"
+    },
+    "3.4": {
+      "part": 3,
+      "chapter": 4,
+      "decimal": "3.4",
+      "slug": "03-04-activity-metrics-and-their-limits",
+      "title": "Activity metrics and their limits",
+      "heading": "3.4 Activity metrics and their limits",
+      "file": "chapters/03-04-activity-metrics-and-their-limits.md"
+    },
+    "3.5": {
+      "part": 3,
+      "chapter": 5,
+      "decimal": "3.5",
+      "slug": "03-05-communication-and-collaboration-metrics",
+      "title": "Communication and collaboration metrics",
+      "heading": "3.5 Communication and collaboration metrics",
+      "file": "chapters/03-05-communication-and-collaboration-metrics.md"
+    },
+    "3.6": {
+      "part": 3,
+      "chapter": 6,
+      "decimal": "3.6",
+      "slug": "03-06-efficiency-and-flow",
+      "title": "Efficiency and flow: deep work and interruptions",
+      "heading": "3.6 Efficiency and flow: deep work and interruptions",
+      "file": "chapters/03-06-efficiency-and-flow.md"
+    },
+    "3.7": {
+      "part": 3,
+      "chapter": 7,
+      "decimal": "3.7",
+      "slug": "03-07-developer-experience-surveys-and-devex-metrics",
+      "title": "Developer experience surveys and DevEx metrics",
+      "heading": "3.7 Developer experience surveys and DevEx metrics",
+      "file": "chapters/03-07-developer-experience-surveys-and-devex-metrics.md"
+    },
+    "4.0": {
+      "part": 4,
+      "chapter": 0,
+      "decimal": "4.0",
+      "slug": "04-00-code-and-quality-metrics",
+      "title": "Introduction to Part 4: Code and Quality Metrics",
+      "heading": "4.0 Introduction to Part 4: Code and Quality Metrics",
+      "file": "chapters/04-00-code-and-quality-metrics.md"
+    },
+    "4.1": {
+      "part": 4,
+      "chapter": 1,
+      "decimal": "4.1",
+      "slug": "04-01-code-complexity-metrics",
+      "title": "Code complexity metrics",
+      "heading": "4.1 Code complexity metrics",
+      "file": "chapters/04-01-code-complexity-metrics.md"
+    },
+    "4.2": {
+      "part": 4,
+      "chapter": 2,
+      "decimal": "4.2",
+      "slug": "04-02-test-coverage-and-test-effectiveness",
+      "title": "Test coverage and test effectiveness",
+      "heading": "4.2 Test coverage and test effectiveness",
+      "file": "chapters/04-02-test-coverage-and-test-effectiveness.md"
+    },
+    "4.3": {
+      "part": 4,
+      "chapter": 3,
+      "decimal": "4.3",
+      "slug": "04-03-code-churn-and-hotspot-analysis",
+      "title": "Code churn and hotspot analysis",
+      "heading": "4.3 Code churn and hotspot analysis",
+      "file": "chapters/04-03-code-churn-and-hotspot-analysis.md"
+    },
+    "4.4": {
+      "part": 4,
+      "chapter": 4,
+      "decimal": "4.4",
+      "slug": "04-04-static-analysis-and-code-smell-metrics",
+      "title": "Static analysis and code smell metrics",
+      "heading": "4.4 Static analysis and code smell metrics",
+      "file": "chapters/04-04-static-analysis-and-code-smell-metrics.md"
+    },
+    "4.5": {
+      "part": 4,
+      "chapter": 5,
+      "decimal": "4.5",
+      "slug": "04-05-technical-debt-measurement",
+      "title": "Technical debt measurement",
+      "heading": "4.5 Technical debt measurement",
+      "file": "chapters/04-05-technical-debt-measurement.md"
+    },
+    "4.6": {
+      "part": 4,
+      "chapter": 6,
+      "decimal": "4.6",
+      "slug": "04-06-documentation-and-knowledge-metrics",
+      "title": "Documentation and knowledge metrics",
+      "heading": "4.6 Documentation and knowledge metrics",
+      "file": "chapters/04-06-documentation-and-knowledge-metrics.md"
+    },
+    "5.0": {
+      "part": 5,
+      "chapter": 0,
+      "decimal": "5.0",
+      "slug": "05-00-product-and-business-metrics",
+      "title": "Introduction to Part 5: Product and Business Metrics",
+      "heading": "5.0 Introduction to Part 5: Product and Business Metrics",
+      "file": "chapters/05-00-product-and-business-metrics.md"
+    },
+    "5.1": {
+      "part": 5,
+      "chapter": 1,
+      "decimal": "5.1",
+      "slug": "05-01-escaped-defect-rate-and-quality-escapes",
+      "title": "Escaped defect rate and quality escapes",
+      "heading": "5.1 Escaped defect rate and quality escapes",
+      "file": "chapters/05-01-escaped-defect-rate-and-quality-escapes.md"
+    },
+    "5.2": {
+      "part": 5,
+      "chapter": 2,
+      "decimal": "5.2",
+      "slug": "05-02-feature-adoption-and-usage-metrics",
+      "title": "Feature adoption and usage metrics",
+      "heading": "5.2 Feature adoption and usage metrics",
+      "file": "chapters/05-02-feature-adoption-and-usage-metrics.md"
+    },
+    "5.3": {
+      "part": 5,
+      "chapter": 3,
+      "decimal": "5.3",
+      "slug": "05-03-customer-and-business-outcome-metrics",
+      "title": "Customer and business outcome metrics",
+      "heading": "5.3 Customer and business outcome metrics",
+      "file": "chapters/05-03-customer-and-business-outcome-metrics.md"
+    },
+    "5.4": {
+      "part": 5,
+      "chapter": 4,
+      "decimal": "5.4",
+      "slug": "05-04-cost-and-unit-economics-of-engineering",
+      "title": "Cost and unit economics of engineering",
+      "heading": "5.4 Cost and unit economics of engineering",
+      "file": "chapters/05-04-cost-and-unit-economics-of-engineering.md"
+    },
+    "5.5": {
+      "part": 5,
+      "chapter": 5,
+      "decimal": "5.5",
+      "slug": "05-05-return-on-investment-for-engineering-initiatives",
+      "title": "Return on investment for engineering initiatives",
+      "heading": "5.5 Return on investment for engineering initiatives",
+      "file": "chapters/05-05-return-on-investment-for-engineering-initiatives.md"
+    },
+    "6.0": {
+      "part": 6,
+      "chapter": 0,
+      "decimal": "6.0",
+      "slug": "06-00-reliability-operations-and-security-metrics",
+      "title": "Introduction to Part 6: Reliability, Operations, and Security Metrics",
+      "heading": "6.0 Introduction to Part 6: Reliability, Operations, and Security Metrics",
+      "file": "chapters/06-00-reliability-operations-and-security-metrics.md"
+    },
+    "6.1": {
+      "part": 6,
+      "chapter": 1,
+      "decimal": "6.1",
+      "slug": "06-01-slis-slos-and-error-budgets",
+      "title": "Service level indicators, objectives, and error budgets",
+      "heading": "6.1 Service level indicators, objectives, and error budgets",
+      "file": "chapters/06-01-slis-slos-and-error-budgets.md"
+    },
+    "6.2": {
+      "part": 6,
+      "chapter": 2,
+      "decimal": "6.2",
+      "slug": "06-02-incident-metrics",
+      "title": "Incident metrics: detection, response, and recovery",
+      "heading": "6.2 Incident metrics: detection, response, and recovery",
+      "file": "chapters/06-02-incident-metrics.md"
+    },
+    "6.3": {
+      "part": 6,
+      "chapter": 3,
+      "decimal": "6.3",
+      "slug": "06-03-on-call-capacity-and-operational-load-metrics",
+      "title": "On-call, capacity, and operational load metrics",
+      "heading": "6.3 On-call, capacity, and operational load metrics",
+      "file": "chapters/06-03-on-call-capacity-and-operational-load-metrics.md"
+    },
+    "6.4": {
+      "part": 6,
+      "chapter": 4,
+      "decimal": "6.4",
+      "slug": "06-04-security-and-vulnerability-management-metrics",
+      "title": "Security and vulnerability management metrics",
+      "heading": "6.4 Security and vulnerability management metrics",
+      "file": "chapters/06-04-security-and-vulnerability-management-metrics.md"
+    },
+    "7.0": {
+      "part": 7,
+      "chapter": 0,
+      "decimal": "7.0",
+      "slug": "07-00-metrics-in-the-age-of-ai",
+      "title": "Introduction to Part 7: Metrics in the Age of AI",
+      "heading": "7.0 Introduction to Part 7: Metrics in the Age of AI",
+      "file": "chapters/07-00-metrics-in-the-age-of-ai.md"
+    },
+    "7.1": {
+      "part": 7,
+      "chapter": 1,
+      "decimal": "7.1",
+      "slug": "07-01-the-generative-ai-paradigm-shift",
+      "title": "The generative AI paradigm shift",
+      "heading": "7.1 The generative AI paradigm shift",
+      "file": "chapters/07-01-the-generative-ai-paradigm-shift.md"
+    },
+    "7.2": {
+      "part": 7,
+      "chapter": 2,
+      "decimal": "7.2",
+      "slug": "07-02-measuring-ai-assisted-software-development",
+      "title": "Measuring AI-assisted software development",
+      "heading": "7.2 Measuring AI-assisted software development",
+      "file": "chapters/07-02-measuring-ai-assisted-software-development.md"
+    },
+    "7.3": {
+      "part": 7,
+      "chapter": 3,
+      "decimal": "7.3",
+      "slug": "07-03-metric-inflation-and-quality-dilution-risks",
+      "title": "Metric inflation and quality dilution risks",
+      "heading": "7.3 Metric inflation and quality dilution risks",
+      "file": "chapters/07-03-metric-inflation-and-quality-dilution-risks.md"
+    },
+    "7.4": {
+      "part": 7,
+      "chapter": 4,
+      "decimal": "7.4",
+      "slug": "07-04-outcome-telemetry-as-the-new-north-star",
+      "title": "Outcome telemetry as the new north star",
+      "heading": "7.4 Outcome telemetry as the new north star",
+      "file": "chapters/07-04-outcome-telemetry-as-the-new-north-star.md"
+    },
+    "8.0": {
+      "part": 8,
+      "chapter": 0,
+      "decimal": "8.0",
+      "slug": "08-00-building-a-metrics-program",
+      "title": "Introduction to Part 8: Building a Metrics Program",
+      "heading": "8.0 Introduction to Part 8: Building a Metrics Program",
+      "file": "chapters/08-00-building-a-metrics-program.md"
+    },
+    "8.1": {
+      "part": 8,
+      "chapter": 1,
+      "decimal": "8.1",
+      "slug": "08-01-designing-an-engineering-metrics-dashboard",
+      "title": "Designing an engineering metrics dashboard",
+      "heading": "8.1 Designing an engineering metrics dashboard",
+      "file": "chapters/08-01-designing-an-engineering-metrics-dashboard.md"
+    },
+    "8.2": {
+      "part": 8,
+      "chapter": 2,
+      "decimal": "8.2",
+      "slug": "08-02-tooling-landscape-build-versus-buy",
+      "title": "Tooling landscape: build versus buy",
+      "heading": "8.2 Tooling landscape: build versus buy",
+      "file": "chapters/08-02-tooling-landscape-build-versus-buy.md"
+    },
+    "8.3": {
+      "part": 8,
+      "chapter": 3,
+      "decimal": "8.3",
+      "slug": "08-03-rolling-out-metrics-without-breeding-fear",
+      "title": "Rolling out metrics without breeding fear",
+      "heading": "8.3 Rolling out metrics without breeding fear",
+      "file": "chapters/08-03-rolling-out-metrics-without-breeding-fear.md"
+    },
+    "8.4": {
+      "part": 8,
+      "chapter": 4,
+      "decimal": "8.4",
+      "slug": "08-04-maturity-model-for-engineering-metrics-programs",
+      "title": "Maturity model for engineering metrics programs",
+      "heading": "8.4 Maturity model for engineering metrics programs",
+      "file": "chapters/08-04-maturity-model-for-engineering-metrics-programs.md"
+    },
+    "8.5": {
+      "part": 8,
+      "chapter": 5,
+      "decimal": "8.5",
+      "slug": "08-05-an-incremental-adoption-roadmap",
+      "title": "An incremental adoption roadmap",
+      "heading": "8.5 An incremental adoption roadmap",
+      "file": "chapters/08-05-an-incremental-adoption-roadmap.md"
+    },
+    "9.0": {
+      "part": 9,
+      "chapter": 0,
+      "decimal": "9.0",
+      "slug": "09-00-appendices",
+      "title": "Appendices",
+      "heading": "9.0 Appendices",
+      "file": "chapters/09-00-appendices.md"
+    },
+    "9.1": {
+      "part": 9,
+      "chapter": 1,
+      "decimal": "9.1",
+      "slug": "09-01-glossary",
+      "title": "Glossary",
+      "heading": "9.1 Glossary",
+      "file": "chapters/09-01-glossary.md"
+    },
+    "9.2": {
+      "part": 9,
+      "chapter": 2,
+      "decimal": "9.2",
+      "slug": "09-02-metric-definitions-and-formulas-reference",
+      "title": "Metric definitions and formulas reference",
+      "heading": "9.2 Metric definitions and formulas reference",
+      "file": "chapters/09-02-metric-definitions-and-formulas-reference.md"
+    },
+    "9.3": {
+      "part": 9,
+      "chapter": 3,
+      "decimal": "9.3",
+      "slug": "09-03-checklists",
+      "title": "Checklists",
+      "heading": "9.3 Checklists",
+      "file": "chapters/09-03-checklists.md"
+    },
+    "9.4": {
+      "part": 9,
+      "chapter": 4,
+      "decimal": "9.4",
+      "slug": "09-04-templates",
+      "title": "Templates",
+      "heading": "9.4 Templates",
+      "file": "chapters/09-04-templates.md"
+    },
+    "9.5": {
+      "part": 9,
+      "chapter": 5,
+      "decimal": "9.5",
+      "slug": "09-05-maturity-self-assessment",
+      "title": "Maturity self-assessment",
+      "heading": "9.5 Maturity self-assessment",
+      "file": "chapters/09-05-maturity-self-assessment.md"
+    },
+    "9.6": {
+      "part": 9,
+      "chapter": 6,
+      "decimal": "9.6",
+      "slug": "09-06-references-and-further-reading",
+      "title": "References and further reading",
+      "heading": "9.6 References and further reading",
+      "file": "chapters/09-06-references-and-further-reading.md"
+    },
+    "9.7": {
+      "part": 9,
+      "chapter": 7,
+      "decimal": "9.7",
+      "slug": "09-07-index",
+      "title": "Index",
+      "heading": "9.7 Index",
+      "file": "chapters/09-07-index.md"
+    }
+  },
+  "order": [
+    "1.0",
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "2.0",
+    "2.1",
+    "2.2",
+    "2.3",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7",
+    "2.8",
+    "3.0",
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5",
+    "3.6",
+    "3.7",
+    "4.0",
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5",
+    "4.6",
+    "5.0",
+    "5.1",
+    "5.2",
+    "5.3",
+    "5.4",
+    "5.5",
+    "6.0",
+    "6.1",
+    "6.2",
+    "6.3",
+    "6.4",
+    "7.0",
+    "7.1",
+    "7.2",
+    "7.3",
+    "7.4",
+    "8.0",
+    "8.1",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.5",
+    "9.0",
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4",
+    "9.5",
+    "9.6",
+    "9.7"
+  ],
+  "frontMatter": [
+    {
+      "slug": "introduction",
+      "title": "Introduction",
+      "file": "front-matter/introduction.md"
+    },
+    {
+      "slug": "table-of-contents",
+      "title": "Table of contents",
+      "file": "front-matter/table-of-contents.md"
+    },
+    {
+      "slug": "what-are-software-engineering-metrics",
+      "title": "What are software engineering metrics?",
+      "file": "front-matter/what-are-software-engineering-metrics.md"
+    }
+  ],
+  "examples": [
+    {
+      "slug": "dashboard-spec-example",
+      "title": "Example: dashboard specification for a delivery-metrics dashboard",
+      "file": "examples/dashboard-spec-example.md"
+    },
+    {
+      "slug": "metrics-charter-example",
+      "title": "Example: metrics charter for a payments platform team",
+      "file": "examples/metrics-charter-example.md"
+    }
+  ],
+  "contributing": [
+    {
+      "slug": "authoring",
+      "title": "Authoring: writing and editing chapters",
+      "file": "contributing/authoring.md"
+    },
+    {
+      "slug": "chapter-template",
+      "title": "Chapter template (shared)",
+      "file": "contributing/chapter-template.md"
+    },
+    {
+      "slug": "navigation",
+      "title": "Navigation: how the generated files work",
+      "file": "contributing/navigation.md"
+    },
+    {
+      "slug": "part-index",
+      "title": "Part index (shared reference)",
+      "file": "contributing/part-index.md"
+    },
+    {
+      "slug": "style-rules",
+      "title": "Style rules (shared, enforceable)",
+      "file": "contributing/style-rules.md"
+    },
+    {
+      "slug": "testing",
+      "title": "Testing: the validation suite",
+      "file": "contributing/testing.md"
+    }
+  ],
+  "project": [
+    {
+      "slug": "changelog",
+      "title": "Changelog",
+      "file": "project/changelog.md"
+    }
+  ],
+  "totals": {
+    "parts": 9,
+    "chapters": 61
+  }
+}

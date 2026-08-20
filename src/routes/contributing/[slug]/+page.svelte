@@ -1,0 +1,15 @@
+<script>
+  import Breadcrumb from '$lib/Breadcrumb.svelte';
+
+  let { data } = $props();
+</script>
+
+<svelte:head>
+  <title>{data.entry.title} — Software Engineering Metrics</title>
+</svelte:head>
+
+<Breadcrumb
+  items={[{ label: 'Home', href: '/' }, { label: 'Contributing', href: '/contributing/' }, { label: data.entry.title }]}
+/>
+
+<data.content />

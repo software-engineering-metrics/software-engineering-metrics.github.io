@@ -59,7 +59,7 @@ chapter 4.6 closes the part by measuring whether the knowledge needed to
 maintain all of this safely is actually documented and findable.
 
 This part connects directly back to Part 2's stability metrics: change
-failure rate (chapter 2.4) is, in large part, a downstream consequence of
+failure rate (chapter 2.9) is, in large part, a downstream consequence of
 the code quality this part measures upstream. It also connects forward to
 Part 5's product metrics, since escaped defects (chapter 5.1) are frequently
 traceable to exactly the complexity hotspots and coverage gaps this part is

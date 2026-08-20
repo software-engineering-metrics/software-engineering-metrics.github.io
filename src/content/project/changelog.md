@@ -5,6 +5,22 @@ the top. Dates use ISO 8601 (YYYY-MM-DD).
 
 ## [Unreleased]
 
+### Changed
+
+- Renamed Part 2 from "Delivery and Flow Metrics" to "Flow Metrics" and
+  reorganized it around Mik Kersten's Flow Framework. Added four new
+  chapters: 2.1 The Flow Framework, 2.2 Flow items (features, defects,
+  risks, debt), 2.3 Flow velocity and flow distribution, and 2.4 Flow time
+  and flow load. Consolidated the four individual DORA metric chapters
+  (deployment frequency, lead time, change failure rate, recovery time)
+  into a single reference chapter, 2.9 The DORA metrics framework, moved
+  to the end of the part. Renumbered flow efficiency and work in process
+  to 2.5 and renamed and renumbered the queueing theory chapter (formerly
+  2.9) to 2.7 Queueing theory. Cycle time (2.6) and pull request and code
+  review metrics (2.8) keep their numbers. Updated every cross-reference
+  across the book, the glossary, the formulas reference, the maturity
+  self-assessment, and the front matter to match.
+
 ### Added
 
 - Initial release: 45 substantive chapters across 8 parts, plus front matter

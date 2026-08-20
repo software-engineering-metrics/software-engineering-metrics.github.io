@@ -58,9 +58,10 @@ the same target-and-budget thinking to a security posture that, left
 unmeasured, tends to receive attention only reactively, after an incident,
 rather than proactively.
 
-This part connects directly back to Part 2: change failure rate (chapter
-2.4) and failed deployment recovery time (chapter 2.5) are, respectively, a
-leading indicator for and an instance of this part's incident metrics. It
+This part connects directly back to Part 2: DORA's change failure rate and
+failed deployment recovery time (both covered in chapter 2.9) are,
+respectively, a leading indicator for and an instance of this part's
+incident metrics. It
 also connects forward to Part 8, where the dashboard and program-maturity
 guidance draws heavily on this part's error-budget model as a worked example
 of turning an abstract goal (reliability, security) into a concrete, trackable,

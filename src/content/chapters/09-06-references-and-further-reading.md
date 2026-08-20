@@ -47,6 +47,11 @@ theme; many works are cited from multiple chapters.
 
 ## Delivery, flow, and DevOps
 
+- Kersten, Mik. *Project to Product: How to Survive and Thrive in the Age
+  of Digital Disruption with the Flow Framework*. IT Revolution Press,
+  2018.
+- Rother, Mike, and John Shook. *Learning to See: Value Stream Mapping to
+  Create Value and Eliminate Muda*. Lean Enterprise Institute, 1999.
 - Kim, Gene, Kevin Behr, and George Spafford. *The Phoenix Project*. IT
   Revolution Press, 2013.
 - Kim, Gene, Jez Humble, Patrick Debois, and John Willis. *The DevOps

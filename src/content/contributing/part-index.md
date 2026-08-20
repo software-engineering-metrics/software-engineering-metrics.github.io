@@ -7,7 +7,7 @@ is `spec/structure.md` at the repository root.
 | Part | Title | Chapters (including the N.0 introduction) |
 | --- | --- | --- |
 | 1 | Foundations of Measurement | 7 |
-| 2 | Delivery and Flow Metrics | 10 |
+| 2 | Flow Metrics | 10 |
 | 3 | Developer Experience and the SPACE Framework | 8 |
 | 4 | Code and Quality Metrics | 7 |
 | 5 | Product and Business Metrics | 6 |

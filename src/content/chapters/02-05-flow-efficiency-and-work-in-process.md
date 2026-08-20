@@ -1,4 +1,4 @@
-# 2.7 Flow efficiency and work in process
+# 2.5 Flow efficiency and work in process
 
 ## Overview and motivation
 
@@ -12,7 +12,8 @@ systems is not how long work takes to do, it is how long work waits to be
 started.
 
 **[Work in process](https://en.wikipedia.org/wiki/Work_in_process)** (WIP) is the count of items actively being worked on at
-any one time, across a team or a system. The counterintuitive finding behind
+any one time, across a team or a system, the same quantity chapter 2.4 calls
+"flow load." The counterintuitive finding behind
 this chapter, backed by decades of research in operations management and
 formalized for software delivery through kanban and queueing theory, is that
 limiting WIP tends to *increase* throughput, not decrease it, because less
@@ -278,8 +279,9 @@ itself.
   generic "reduce wait time" directive.
 - Watch for WIP limits **eroding through routine exceptions**; treat every
   exception as a deliberate, visible decision.
-- Chapter 2.9 formalizes this relationship as Little's law: work in process
-  equals arrival rate times cycle time, for any stable queue.
+- Chapter 2.4 names this quantity **flow load** and chapter 2.7 formalizes
+  the relationship as Little's law: work in process equals arrival rate
+  times cycle time, for any stable queue.
 
 ## References and further reading
 

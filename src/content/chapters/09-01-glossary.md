@@ -12,7 +12,7 @@ of one is a severe risk. See chapter 3.5.
 
 **Change failure rate.** The percentage of deployments that cause a
 production failure requiring remediation. One of the four DORA metrics.
-See chapter 2.4.
+See chapter 2.9.
 
 **Control chart.** A chart showing a metric's normal range of variation
 over time, used to distinguish a genuine shift from ordinary noise. See
@@ -33,11 +33,11 @@ organized around feedback loops, cognitive load, and flow state. See
 chapter 3.7.
 
 **Deployment frequency.** How often a team successfully releases to
-production. One of the four DORA metrics. See chapter 2.2.
+production. One of the four DORA metrics. See chapter 2.9.
 
 **DORA metrics.** Four metrics from the DevOps Research and Assessment
 programme: deployment frequency, lead time for changes, change failure
-rate, and failed deployment recovery time. See chapter 2.1.
+rate, and failed deployment recovery time. See chapter 2.9.
 
 **Error budget.** The allowed shortfall between a service level objective
 and 100% reliability, treated as a spendable resource. See chapter 6.1.
@@ -48,8 +48,29 @@ user, as distinct from one caught in review or testing. See chapter 5.1.
 **FinOps.** The discipline of bringing financial accountability to
 variable cloud infrastructure spend. See chapter 5.4.
 
+**Flow distribution.** The proportion of completed flow items belonging to
+each flow item type in a given period. See chapter 2.3.
+
 **Flow efficiency.** The ratio of active work time to total elapsed time
-for a piece of work moving through a delivery pipeline. See chapter 2.7.
+for a piece of work moving through a delivery pipeline. See chapter 2.5.
+
+**Flow Framework.** A managerial model, created by Mik Kersten, that
+treats software delivery as a value stream and measures it with four flow
+item types and five flow metrics. See chapter 2.1.
+
+**Flow item.** The Flow Framework's unit of work: a feature, defect, risk,
+or debt item, classified at intake. See chapter 2.2.
+
+**Flow load.** The total number of flow items currently active or waiting
+in a value stream, the Flow Framework's name for work in process. See
+chapter 2.4.
+
+**Flow time.** The total elapsed time from a flow item entering the value
+stream to its delivery, spanning the whole value stream rather than only
+engineering. See chapter 2.4.
+
+**Flow velocity.** The number of flow items completed over a given period,
+the Flow Framework's measure of throughput. See chapter 2.3.
 
 **Goodhart's law.** The principle that when a measure becomes a target, it
 ceases to be a good measure. The central, governing idea of this book. See
@@ -63,12 +84,12 @@ and highly complex, identified through hotspot analysis. See chapter 4.3.
 
 **Lead time for changes.** The time from a code change's first commit to
 its successful deployment in production. One of the four DORA metrics. See
-chapter 2.3.
+chapter 2.9.
 
 **Little's law.** The proof that the average number of items in a stable
 queue equals the average arrival rate multiplied by the average time an
 item spends in the system. Applied to delivery, work in process equals
-arrival rate times cycle time. See chapter 2.9.
+arrival rate times cycle time. See chapter 2.7.
 
 **Metric tree.** A structure connecting a top-level outcome metric down
 through its drivers to the operational metrics individual teams own. See
@@ -82,7 +103,7 @@ to someone noticing it occurred. See chapter 6.2.
 
 **MTTR (mean time to recovery / mean time to resolve).** The time to fully
 restore service after a failure. Used both for deployment-caused failures
-(chapter 2.5) and general incidents (chapter 6.2).
+(chapter 2.9) and general incidents (chapter 6.2).
 
 **Mutation testing.** A technique that deliberately introduces small,
 artificial faults into code to check whether a test suite actually catches
@@ -97,7 +118,7 @@ outcomes rather than activity or output. See chapter 7.4.
 
 **Queueing theory.** The mathematical study of waiting lines, applied to
 delivery pipelines to explain how work in process, arrival rate, and
-utilization drive wait time. See chapter 2.9.
+utilization drive wait time. See chapter 2.7.
 
 **ROI (return on investment).** The financial return of an initiative
 relative to its cost, built here from documented cost and outcome evidence
@@ -132,10 +153,14 @@ chapter 5.4.
 **Utilization.** The proportion of a resource's available capacity that is
 busy, calculated as arrival rate divided by service rate. Wait time grows
 sharply, not gradually, as utilization approaches full capacity. See
-chapter 2.9.
+chapter 2.7.
+
+**Value stream.** The end-to-end sequence of activities that turns an idea
+into value a customer receives, the Flow Framework's unit of measurement.
+See chapter 2.1.
 
 **Vanity metric.** A metric that reliably rises, looks impressive, and
 changes no decision. See chapter 1.1.
 
 **Work in process (WIP).** The count of items actively being worked on at
-any one time across a team or system. See chapter 2.7.
+any one time across a team or system. See chapter 2.5.

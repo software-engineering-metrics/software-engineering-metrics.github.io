@@ -5,7 +5,7 @@
 **Efficiency and flow**, the final dimension of SPACE (chapter 3.1),
 measures the absence of friction and the ability to sustain uninterrupted,
 focused work. This dimension sits at the boundary between Part 2's delivery
-flow metrics (chapter 2.7's flow efficiency measures how work moves through
+flow metrics (chapter 2.5's flow efficiency measures how work moves through
 a team system) and something more personal: the individual cognitive
 experience of deep, focused engineering work, and how often that experience
 gets fragmented by interruption. Software engineering, more than most
@@ -238,7 +238,7 @@ erosion as new coordination needs inevitably arise.
   repeats the exact misuse risk chapter 3.4 warns against for activity
   data.
 - **Letting protected focus time erode gradually through exceptions:** the
-  same erosion risk chapter 2.7 warns about for WIP limits, applied to
+  same erosion risk chapter 2.5 warns about for WIP limits, applied to
   focus-time protection.
 - **Adding governance or coordination requirements without ever measuring
   their cumulative meeting-load cost:** fragmentation creeps in one

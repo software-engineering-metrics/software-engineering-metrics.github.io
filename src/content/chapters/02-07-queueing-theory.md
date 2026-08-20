@@ -1,4 +1,4 @@
-# 2.9 Queueing theory and Little's law
+# 2.7 Queueing theory
 
 ## Overview and motivation
 
@@ -7,20 +7,24 @@ mathematical study of waiting lines. It sounds like an odd fit for a book
 about software engineering metrics until you notice how much of a delivery
 pipeline actually is a queue: a pull request waiting for a reviewer, a
 commit waiting for a CI runner, a ticket waiting to be picked up, a customer
-support message waiting for a response. Chapters 2.6 and 2.7 already showed
-you that most delivery time is wait time, not work time, and that limiting
-work in process improves throughput. Queueing theory is the underlying
-mathematics that explains why both of those things are true.
+support message waiting for a response. Chapter 2.4 already introduced flow
+load and flow time and showed that overloading a value stream makes
+delivery slow down sharply, and chapters 2.5 and 2.6 showed that most
+delivery time is wait time, not work time. Queueing theory is the
+underlying mathematics that explains why all of that is true, not just an
+observed pattern.
 
 The single most useful result is **[Little's law](https://en.wikipedia.org/wiki/Little%27s_law)**,
 a theorem proved by the operations researcher John Little in 1961: the
 average number of items in a stable system equals the average rate at which
 items arrive, multiplied by the average time each item spends in the
-system. Translated into this book's own vocabulary, work in process
-(chapter 2.7) equals the arrival rate of new work multiplied by cycle time
-(chapter 2.6). This is not a rule of thumb or a correlation observed in
-some studies. It is a proof that holds for any stable queue, regardless of
-what the queue is processing or how it decides what to work on next.
+system. Chapter 2.4 already used this result under the Flow Framework's own
+names, flow load equals arrival rate times flow time. In this book's
+broader vocabulary it also reads as work in process (chapter 2.5) equals
+the arrival rate of new work multiplied by cycle time (chapter 2.6). This
+is not a rule of thumb or a correlation observed in some studies. It is a
+proof that holds for any stable queue, regardless of what the queue is
+processing or how it decides what to work on next.
 
 For a large team, that generality is the point. Little's law gives you a
 sanity check that works identically whether the queue is a kanban board, a
@@ -121,7 +125,7 @@ simulation gives the most accurate answer, but almost no engineering team
 will build and maintain one, and a model nobody trusts or updates is worse
 than no model. Little's law and basic utilization tracking give up some
 precision but require no specialized statistical skill and fit directly
-into metrics a team already collects for chapters 2.6 and 2.7. Default to
+into metrics a team already collects for chapters 2.4 through 2.6. Default to
 those cheap, adoptable checks, and reserve full simulation for the rare
 case where a single shared resource, a large CI fleet, a specialized
 review pool, is expensive enough to justify the investment.
@@ -200,7 +204,7 @@ it reaches the gate.
 ## Examples
 
 **Enterprise.** A cloud infrastructure provider's internal platform team
-noticed that lead time for changes (chapter 2.3) had crept upward across
+noticed that lead time for changes (chapter 2.9) had crept upward across
 every product team that depended on its shared CI fleet, even though no
 individual team had changed how it worked. A utilization analysis found
 the fleet running above 90% busy during core hours, well past the point
@@ -236,8 +240,8 @@ cheaper than asking every downstream team to move faster around a
 bottleneck they cannot see.
 
 The total cost of adoption is genuinely low. Little's law and utilization
-tracking need no new tooling beyond what chapters 2.6 and 2.7 already ask
-you to collect: arrival rate, work in process, and cycle time. The
+tracking need no new tooling beyond what chapters 2.4 through 2.6 already
+ask you to collect: arrival rate, work in process, and cycle time. The
 investment is mostly analytical discipline, checking the numbers against
 each other and periodically reviewing utilization on shared resources
 before they become the organization's next unexplained lead-time

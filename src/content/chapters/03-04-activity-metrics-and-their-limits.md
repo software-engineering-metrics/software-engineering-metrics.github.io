@@ -89,7 +89,7 @@ substitution pattern: splitting genuinely meaningful work into many small,
 trivial events to inflate a count. If commit or pull request frequency
 rises while the underlying complexity or size of changes falls sharply,
 investigate before crediting a real productivity improvement, using the
-same diagnostic discipline chapter 2.2 recommends for deployment frequency.
+same diagnostic discipline chapter 2.9 recommends for deployment frequency.
 
 ### Explicitly name and discourage activity theater
 

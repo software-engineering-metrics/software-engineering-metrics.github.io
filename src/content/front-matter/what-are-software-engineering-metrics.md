@@ -25,7 +25,11 @@ measuring engineering delivery and team health.
 **[DORA metrics](https://dora.dev/guides/dora-metrics/)** (from the DevOps
 Research and Assessment programme) measure system throughput and stability:
 deployment frequency, lead time for changes, change failure rate, and failed
-deployment recovery time. Part 2 of this book covers each in depth.
+deployment recovery time. Part 2 of this book covers all four in a
+dedicated reference chapter, alongside the Flow Framework it uses to
+organize delivery and flow metrics more broadly, because DORA measures
+pipeline mechanics well but says nothing about what kind of value is moving
+through the pipeline.
 
 **The [SPACE framework](https://queue.acm.org/detail.cfm?id=3454124)**,
 created by researchers at Microsoft, GitHub, and the University of Victoria,

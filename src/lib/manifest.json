@@ -78,55 +78,55 @@
           "part": 2,
           "chapter": 0,
           "decimal": "2.0",
-          "slug": "02-00-delivery-and-flow-metrics",
-          "title": "Introduction to Part 2: Delivery and Flow Metrics",
-          "heading": "2.0 Introduction to Part 2: Delivery and Flow Metrics",
-          "file": "chapters/02-00-delivery-and-flow-metrics.md"
+          "slug": "02-00-flow-metrics",
+          "title": "Introduction to Part 2: Flow Metrics",
+          "heading": "2.0 Introduction to Part 2: Flow Metrics",
+          "file": "chapters/02-00-flow-metrics.md"
         },
         {
           "part": 2,
           "chapter": 1,
           "decimal": "2.1",
-          "slug": "02-01-the-dora-metrics-framework",
-          "title": "The DORA metrics framework",
-          "heading": "2.1 The DORA metrics framework",
-          "file": "chapters/02-01-the-dora-metrics-framework.md"
+          "slug": "02-01-the-flow-framework",
+          "title": "The Flow Framework",
+          "heading": "2.1 The Flow Framework",
+          "file": "chapters/02-01-the-flow-framework.md"
         },
         {
           "part": 2,
           "chapter": 2,
           "decimal": "2.2",
-          "slug": "02-02-deployment-frequency",
-          "title": "Deployment frequency",
-          "heading": "2.2 Deployment frequency",
-          "file": "chapters/02-02-deployment-frequency.md"
+          "slug": "02-02-flow-items",
+          "title": "Flow items: features, defects, risks, and debt",
+          "heading": "2.2 Flow items: features, defects, risks, and debt",
+          "file": "chapters/02-02-flow-items.md"
         },
         {
           "part": 2,
           "chapter": 3,
           "decimal": "2.3",
-          "slug": "02-03-lead-time-for-changes",
-          "title": "Lead time for changes",
-          "heading": "2.3 Lead time for changes",
-          "file": "chapters/02-03-lead-time-for-changes.md"
+          "slug": "02-03-flow-velocity-and-flow-distribution",
+          "title": "Flow velocity and flow distribution",
+          "heading": "2.3 Flow velocity and flow distribution",
+          "file": "chapters/02-03-flow-velocity-and-flow-distribution.md"
         },
         {
           "part": 2,
           "chapter": 4,
           "decimal": "2.4",
-          "slug": "02-04-change-failure-rate",
-          "title": "Change failure rate",
-          "heading": "2.4 Change failure rate",
-          "file": "chapters/02-04-change-failure-rate.md"
+          "slug": "02-04-flow-time-and-flow-load",
+          "title": "Flow time and flow load",
+          "heading": "2.4 Flow time and flow load",
+          "file": "chapters/02-04-flow-time-and-flow-load.md"
         },
         {
           "part": 2,
           "chapter": 5,
           "decimal": "2.5",
-          "slug": "02-05-failed-deployment-recovery-time",
-          "title": "Failed deployment recovery time",
-          "heading": "2.5 Failed deployment recovery time",
-          "file": "chapters/02-05-failed-deployment-recovery-time.md"
+          "slug": "02-05-flow-efficiency-and-work-in-process",
+          "title": "Flow efficiency and work in process",
+          "heading": "2.5 Flow efficiency and work in process",
+          "file": "chapters/02-05-flow-efficiency-and-work-in-process.md"
         },
         {
           "part": 2,
@@ -141,10 +141,10 @@
           "part": 2,
           "chapter": 7,
           "decimal": "2.7",
-          "slug": "02-07-flow-efficiency-and-work-in-process",
-          "title": "Flow efficiency and work in process",
-          "heading": "2.7 Flow efficiency and work in process",
-          "file": "chapters/02-07-flow-efficiency-and-work-in-process.md"
+          "slug": "02-07-queueing-theory",
+          "title": "Queueing theory",
+          "heading": "2.7 Queueing theory",
+          "file": "chapters/02-07-queueing-theory.md"
         },
         {
           "part": 2,
@@ -159,10 +159,10 @@
           "part": 2,
           "chapter": 9,
           "decimal": "2.9",
-          "slug": "02-09-queueing-theory-and-littles-law",
-          "title": "Queueing theory and Little's law",
-          "heading": "2.9 Queueing theory and Little's law",
-          "file": "chapters/02-09-queueing-theory-and-littles-law.md"
+          "slug": "02-09-the-dora-metrics-framework",
+          "title": "The DORA metrics framework",
+          "heading": "2.9 The DORA metrics framework",
+          "file": "chapters/02-09-the-dora-metrics-framework.md"
         }
       ]
     },
@@ -682,55 +682,55 @@
       "part": 2,
       "chapter": 0,
       "decimal": "2.0",
-      "slug": "02-00-delivery-and-flow-metrics",
-      "title": "Introduction to Part 2: Delivery and Flow Metrics",
-      "heading": "2.0 Introduction to Part 2: Delivery and Flow Metrics",
-      "file": "chapters/02-00-delivery-and-flow-metrics.md"
+      "slug": "02-00-flow-metrics",
+      "title": "Introduction to Part 2: Flow Metrics",
+      "heading": "2.0 Introduction to Part 2: Flow Metrics",
+      "file": "chapters/02-00-flow-metrics.md"
     },
     {
       "part": 2,
       "chapter": 1,
       "decimal": "2.1",
-      "slug": "02-01-the-dora-metrics-framework",
-      "title": "The DORA metrics framework",
-      "heading": "2.1 The DORA metrics framework",
-      "file": "chapters/02-01-the-dora-metrics-framework.md"
+      "slug": "02-01-the-flow-framework",
+      "title": "The Flow Framework",
+      "heading": "2.1 The Flow Framework",
+      "file": "chapters/02-01-the-flow-framework.md"
     },
     {
       "part": 2,
       "chapter": 2,
       "decimal": "2.2",
-      "slug": "02-02-deployment-frequency",
-      "title": "Deployment frequency",
-      "heading": "2.2 Deployment frequency",
-      "file": "chapters/02-02-deployment-frequency.md"
+      "slug": "02-02-flow-items",
+      "title": "Flow items: features, defects, risks, and debt",
+      "heading": "2.2 Flow items: features, defects, risks, and debt",
+      "file": "chapters/02-02-flow-items.md"
     },
     {
       "part": 2,
       "chapter": 3,
       "decimal": "2.3",
-      "slug": "02-03-lead-time-for-changes",
-      "title": "Lead time for changes",
-      "heading": "2.3 Lead time for changes",
-      "file": "chapters/02-03-lead-time-for-changes.md"
+      "slug": "02-03-flow-velocity-and-flow-distribution",
+      "title": "Flow velocity and flow distribution",
+      "heading": "2.3 Flow velocity and flow distribution",
+      "file": "chapters/02-03-flow-velocity-and-flow-distribution.md"
     },
     {
       "part": 2,
       "chapter": 4,
       "decimal": "2.4",
-      "slug": "02-04-change-failure-rate",
-      "title": "Change failure rate",
-      "heading": "2.4 Change failure rate",
-      "file": "chapters/02-04-change-failure-rate.md"
+      "slug": "02-04-flow-time-and-flow-load",
+      "title": "Flow time and flow load",
+      "heading": "2.4 Flow time and flow load",
+      "file": "chapters/02-04-flow-time-and-flow-load.md"
     },
     {
       "part": 2,
       "chapter": 5,
       "decimal": "2.5",
-      "slug": "02-05-failed-deployment-recovery-time",
-      "title": "Failed deployment recovery time",
-      "heading": "2.5 Failed deployment recovery time",
-      "file": "chapters/02-05-failed-deployment-recovery-time.md"
+      "slug": "02-05-flow-efficiency-and-work-in-process",
+      "title": "Flow efficiency and work in process",
+      "heading": "2.5 Flow efficiency and work in process",
+      "file": "chapters/02-05-flow-efficiency-and-work-in-process.md"
     },
     {
       "part": 2,
@@ -745,10 +745,10 @@
       "part": 2,
       "chapter": 7,
       "decimal": "2.7",
-      "slug": "02-07-flow-efficiency-and-work-in-process",
-      "title": "Flow efficiency and work in process",
-      "heading": "2.7 Flow efficiency and work in process",
-      "file": "chapters/02-07-flow-efficiency-and-work-in-process.md"
+      "slug": "02-07-queueing-theory",
+      "title": "Queueing theory",
+      "heading": "2.7 Queueing theory",
+      "file": "chapters/02-07-queueing-theory.md"
     },
     {
       "part": 2,
@@ -763,10 +763,10 @@
       "part": 2,
       "chapter": 9,
       "decimal": "2.9",
-      "slug": "02-09-queueing-theory-and-littles-law",
-      "title": "Queueing theory and Little's law",
-      "heading": "2.9 Queueing theory and Little's law",
-      "file": "chapters/02-09-queueing-theory-and-littles-law.md"
+      "slug": "02-09-the-dora-metrics-framework",
+      "title": "The DORA metrics framework",
+      "heading": "2.9 The DORA metrics framework",
+      "file": "chapters/02-09-the-dora-metrics-framework.md"
     },
     {
       "part": 3,
@@ -1242,55 +1242,55 @@
       "part": 2,
       "chapter": 0,
       "decimal": "2.0",
-      "slug": "02-00-delivery-and-flow-metrics",
-      "title": "Introduction to Part 2: Delivery and Flow Metrics",
-      "heading": "2.0 Introduction to Part 2: Delivery and Flow Metrics",
-      "file": "chapters/02-00-delivery-and-flow-metrics.md"
+      "slug": "02-00-flow-metrics",
+      "title": "Introduction to Part 2: Flow Metrics",
+      "heading": "2.0 Introduction to Part 2: Flow Metrics",
+      "file": "chapters/02-00-flow-metrics.md"
     },
     "2.1": {
       "part": 2,
       "chapter": 1,
       "decimal": "2.1",
-      "slug": "02-01-the-dora-metrics-framework",
-      "title": "The DORA metrics framework",
-      "heading": "2.1 The DORA metrics framework",
-      "file": "chapters/02-01-the-dora-metrics-framework.md"
+      "slug": "02-01-the-flow-framework",
+      "title": "The Flow Framework",
+      "heading": "2.1 The Flow Framework",
+      "file": "chapters/02-01-the-flow-framework.md"
     },
     "2.2": {
       "part": 2,
       "chapter": 2,
       "decimal": "2.2",
-      "slug": "02-02-deployment-frequency",
-      "title": "Deployment frequency",
-      "heading": "2.2 Deployment frequency",
-      "file": "chapters/02-02-deployment-frequency.md"
+      "slug": "02-02-flow-items",
+      "title": "Flow items: features, defects, risks, and debt",
+      "heading": "2.2 Flow items: features, defects, risks, and debt",
+      "file": "chapters/02-02-flow-items.md"
     },
     "2.3": {
       "part": 2,
       "chapter": 3,
       "decimal": "2.3",
-      "slug": "02-03-lead-time-for-changes",
-      "title": "Lead time for changes",
-      "heading": "2.3 Lead time for changes",
-      "file": "chapters/02-03-lead-time-for-changes.md"
+      "slug": "02-03-flow-velocity-and-flow-distribution",
+      "title": "Flow velocity and flow distribution",
+      "heading": "2.3 Flow velocity and flow distribution",
+      "file": "chapters/02-03-flow-velocity-and-flow-distribution.md"
     },
     "2.4": {
       "part": 2,
       "chapter": 4,
       "decimal": "2.4",
-      "slug": "02-04-change-failure-rate",
-      "title": "Change failure rate",
-      "heading": "2.4 Change failure rate",
-      "file": "chapters/02-04-change-failure-rate.md"
+      "slug": "02-04-flow-time-and-flow-load",
+      "title": "Flow time and flow load",
+      "heading": "2.4 Flow time and flow load",
+      "file": "chapters/02-04-flow-time-and-flow-load.md"
     },
     "2.5": {
       "part": 2,
       "chapter": 5,
       "decimal": "2.5",
-      "slug": "02-05-failed-deployment-recovery-time",
-      "title": "Failed deployment recovery time",
-      "heading": "2.5 Failed deployment recovery time",
-      "file": "chapters/02-05-failed-deployment-recovery-time.md"
+      "slug": "02-05-flow-efficiency-and-work-in-process",
+      "title": "Flow efficiency and work in process",
+      "heading": "2.5 Flow efficiency and work in process",
+      "file": "chapters/02-05-flow-efficiency-and-work-in-process.md"
     },
     "2.6": {
       "part": 2,
@@ -1305,10 +1305,10 @@
       "part": 2,
       "chapter": 7,
       "decimal": "2.7",
-      "slug": "02-07-flow-efficiency-and-work-in-process",
-      "title": "Flow efficiency and work in process",
-      "heading": "2.7 Flow efficiency and work in process",
-      "file": "chapters/02-07-flow-efficiency-and-work-in-process.md"
+      "slug": "02-07-queueing-theory",
+      "title": "Queueing theory",
+      "heading": "2.7 Queueing theory",
+      "file": "chapters/02-07-queueing-theory.md"
     },
     "2.8": {
       "part": 2,
@@ -1323,10 +1323,10 @@
       "part": 2,
       "chapter": 9,
       "decimal": "2.9",
-      "slug": "02-09-queueing-theory-and-littles-law",
-      "title": "Queueing theory and Little's law",
-      "heading": "2.9 Queueing theory and Little's law",
-      "file": "chapters/02-09-queueing-theory-and-littles-law.md"
+      "slug": "02-09-the-dora-metrics-framework",
+      "title": "The DORA metrics framework",
+      "heading": "2.9 The DORA metrics framework",
+      "file": "chapters/02-09-the-dora-metrics-framework.md"
     },
     "3.0": {
       "part": 3,

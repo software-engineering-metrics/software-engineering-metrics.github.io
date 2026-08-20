@@ -65,14 +65,14 @@ unrelated concurrent changes.
 ### Measure cycle time and quality together, never AI assistance's speed
 claim alone
 
-Apply chapters 2.6 and 2.4's discipline directly: track whether AI-assisted
-work moves faster through the cycle-time stages, and simultaneously
-whether change failure rate or escaped defect rate (chapter 5.1) for that
-work moves in the wrong direction. A genuine productivity gain shows faster
-cycle time with stable or improved quality; a false gain shows faster
-cycle time with degrading quality, exactly the trade chapter 7.1 warned
-against, discovered here through the same paired-metric discipline this
-book applies throughout.
+Apply chapter 2.6's and chapter 2.9's discipline directly: track whether
+AI-assisted work moves faster through the cycle-time stages, and
+simultaneously whether change failure rate or escaped defect rate (chapter
+5.1) for that work moves in the wrong direction. A genuine productivity
+gain shows faster cycle time with stable or improved quality; a false gain
+shows faster cycle time with degrading quality, exactly the trade chapter
+7.1 warned against, discovered here through the same paired-metric
+discipline this book applies throughout.
 
 ### Include review and correction time in the full cost accounting
 

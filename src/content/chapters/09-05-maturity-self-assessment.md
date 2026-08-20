@@ -30,18 +30,19 @@ programme maturity is the minimum across dimensions, not the average.
 | 1.5 | Instrumentation quality and data-source reliability | |
 | 1.6 | Statistical literacy in interpreting metrics | |
 
-## Part 2: Delivery and Flow Metrics
+## Part 2: Flow Metrics
 
 | Chapter | Capability | Your score (1-5) |
 | --- | --- | --- |
-| 2.1 | DORA framework adoption, paired and system-level | |
-| 2.2 | Deployment frequency, genuinely instrumented | |
-| 2.3 | Lead time, precisely defined and decomposed | |
-| 2.4 | Change failure rate, consistently classified | |
-| 2.5 | Recovery time and rollback capability | |
+| 2.1 | Flow Framework adoption, value stream mapped honestly | |
+| 2.2 | Flow-item classification, consistent and intake-time | |
+| 2.3 | Flow velocity and distribution, always paired | |
+| 2.4 | Flow time and flow load, tracked against Little's law | |
+| 2.5 | Flow efficiency and WIP management | |
 | 2.6 | Cycle-time decomposition and diagnosis | |
-| 2.7 | Flow efficiency and WIP management | |
+| 2.7 | Queueing theory applied to shared-resource utilization | |
 | 2.8 | Pull request and review metrics, quality-guarded | |
+| 2.9 | DORA framework adoption, paired and system-level | |
 
 ## Part 3: Developer Experience and the SPACE Framework
 

@@ -51,7 +51,7 @@ metric to surface it.
 Measure the interval from a pull request being opened to a reviewer's first
 substantive comment or approval, instrumented automatically from your
 version control platform. This is usually the dominant wait-time
-contributor within the review stage (chapter 2.6, chapter 2.7), and
+contributor within the review stage (chapter 2.5, chapter 2.6), and
 improving it, through clearer review-assignment norms, notification
 practices, or dedicated review time blocks, typically produces the largest
 single improvement to overall cycle time available to a team.
@@ -63,7 +63,7 @@ persistently large median size as a signal worth addressing directly.
 Smaller pull requests are reviewed faster, reviewed more thoroughly (a
 reviewer can actually hold the whole change in their head), and are easier
 to revert if something goes wrong, connecting directly back to the
-batch-size principle behind deployment frequency in chapter 2.2. Encourage
+batch-size principle behind deployment frequency in chapter 2.9. Encourage
 splitting large changes into a sequence of smaller, independently reviewable
 pull requests wherever the work allows it.
 

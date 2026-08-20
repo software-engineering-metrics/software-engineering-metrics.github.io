@@ -12,17 +12,17 @@ each part). See also the [Introduction](introduction.md).
 - [1.5 Data sources and instrumentation](../chapters/01-05-data-sources-and-instrumentation.md)
 - [1.6 Statistical literacy for engineering metrics](../chapters/01-06-statistical-literacy-for-engineering-metrics.md)
 
-### Part 2: Delivery and Flow Metrics
-- [2.0 Introduction](../chapters/02-00-delivery-and-flow-metrics.md)
-- [2.1 The DORA metrics framework](../chapters/02-01-the-dora-metrics-framework.md)
-- [2.2 Deployment frequency](../chapters/02-02-deployment-frequency.md)
-- [2.3 Lead time for changes](../chapters/02-03-lead-time-for-changes.md)
-- [2.4 Change failure rate](../chapters/02-04-change-failure-rate.md)
-- [2.5 Failed deployment recovery time](../chapters/02-05-failed-deployment-recovery-time.md)
+### Part 2: Flow Metrics
+- [2.0 Introduction](../chapters/02-00-flow-metrics.md)
+- [2.1 The Flow Framework](../chapters/02-01-the-flow-framework.md)
+- [2.2 Flow items: features, defects, risks, and debt](../chapters/02-02-flow-items.md)
+- [2.3 Flow velocity and flow distribution](../chapters/02-03-flow-velocity-and-flow-distribution.md)
+- [2.4 Flow time and flow load](../chapters/02-04-flow-time-and-flow-load.md)
+- [2.5 Flow efficiency and work in process](../chapters/02-05-flow-efficiency-and-work-in-process.md)
 - [2.6 Cycle time and its components](../chapters/02-06-cycle-time-and-its-components.md)
-- [2.7 Flow efficiency and work in process](../chapters/02-07-flow-efficiency-and-work-in-process.md)
+- [2.7 Queueing theory](../chapters/02-07-queueing-theory.md)
 - [2.8 Pull request and code review metrics](../chapters/02-08-pull-request-and-code-review-metrics.md)
-- [2.9 Queueing theory and Little's law](../chapters/02-09-queueing-theory-and-littles-law.md)
+- [2.9 The DORA metrics framework](../chapters/02-09-the-dora-metrics-framework.md)
 
 ### Part 3: Developer Experience and the SPACE Framework
 - [3.0 Introduction](../chapters/03-00-developer-experience-and-space.md)

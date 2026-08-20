@@ -12,7 +12,7 @@ delivery data and less personal than satisfaction data, and that gap is a
 mistake, because breakdowns here are frequently the root cause of problems
 that show up, misattributed, in every other dimension.
 
-A rising change failure rate (chapter 2.4) that looks like a testing problem
+A rising change failure rate (chapter 2.9) that looks like a testing problem
 is sometimes actually a communication problem: a team that did not know
 about a dependency's change until it broke in production. A declining
 satisfaction trend (chapter 3.2) that looks like a workload problem is

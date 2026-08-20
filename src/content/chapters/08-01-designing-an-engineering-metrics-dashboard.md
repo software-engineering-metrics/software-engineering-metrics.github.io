@@ -80,8 +80,8 @@ proportion.
 views
 
 Following chapter 1.2's guardrail-pairing principle as a hard dashboard
-design rule: deployment frequency and change failure rate (chapters 2.2,
-2.4) belong on the same view, always visible together, never split across
+design rule: deployment frequency and change failure rate (chapter 2.9)
+belong on the same view, always visible together, never split across
 a "speed" dashboard and a separate "quality" dashboard that different
 audiences might view in isolation. This is not a minor layout preference;
 separating a metric from its guardrail on different dashboards recreates

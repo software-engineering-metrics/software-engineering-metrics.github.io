@@ -4,19 +4,23 @@ Every formula from the book, gathered in one place. Each entry names the
 chapter with the full discussion, including its gaming risk and guardrail.
 Use this as a quick lookup, not a substitute for the chapter itself.
 
-## Delivery and flow (Part 2)
+## Flow metrics (Part 2)
 
 | Metric | Formula | Chapter |
 | --- | --- | --- |
-| Deployment frequency | Count of successful production deployments per unit time | 2.2 |
-| Lead time for changes | Time from first commit to successful production deployment (report median and 90th percentile) | 2.3 |
-| Change failure rate | (Deployments causing a failure) / (Total deployments) x 100% | 2.4 |
-| Failed deployment recovery time | Time from failure detection to genuine service restoration | 2.5 |
+| Flow velocity | Count of flow items completed per unit time | 2.3 |
+| Flow distribution | (Completed items of one flow item type) / (Total completed items) x 100% | 2.3 |
+| Flow time | Time from a flow item entering the value stream to its delivery | 2.4 |
+| Flow load | Count of flow items currently active or waiting in the value stream | 2.4 |
+| Little's law | Flow load (work in process) = Arrival rate x Flow time (cycle time) | 2.4, 2.7 |
+| Flow efficiency | Active work time / Total elapsed time x 100% | 2.5 |
 | Cycle time | Sum of stage durations: coding + pickup + review + test + deploy | 2.6 |
-| Flow efficiency | Active work time / Total elapsed time x 100% | 2.7 |
+| Utilization | Arrival rate / Service rate | 2.7 |
 | Time to first review | Time from pull request opened to first substantive reviewer response | 2.8 |
-| Little's law | Work in process = Arrival rate x Cycle time | 2.9 |
-| Utilization | Arrival rate / Service rate | 2.9 |
+| Deployment frequency | Count of successful production deployments per unit time | 2.9 |
+| Lead time for changes | Time from first commit to successful production deployment (report median and 90th percentile) | 2.9 |
+| Change failure rate | (Deployments causing a failure) / (Total deployments) x 100% | 2.9 |
+| Failed deployment recovery time | Time from failure detection to genuine service restoration | 2.9 |
 
 ## Developer experience (Part 3)
 

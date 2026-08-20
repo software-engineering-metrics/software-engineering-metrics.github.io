@@ -20,7 +20,7 @@ incremental tooling change. A paradigm shift changes what your existing
 instruments actually measure, not just what values they report. A speedometer
 still measures speed after you change a car's engine; several of this
 book's metrics do not survive this transition so cleanly. Deployment
-frequency (chapter 2.2) can rise because AI accelerated genuinely valuable
+frequency (chapter 2.9) can rise because AI accelerated genuinely valuable
 work, or because AI made it trivially easy to generate many small, low-value
 changes; the number alone cannot distinguish the two anymore, in a way it
 mostly could, with appropriate caution, before. The same logic applies with
@@ -65,7 +65,7 @@ Go through your current dashboard and, for each metric, ask directly:
 would a team using AI assistance heavily but producing no more real value
 than before show an improved reading on this metric. Activity counts,
 commit frequency, and raw deployment frequency (without a paired stability
-guardrail, chapter 2.4) are the most exposed. Outcome metrics from Part 5,
+guardrail, chapter 2.9) are the most exposed. Outcome metrics from Part 5,
 escaped defect rate, feature adoption, business outcomes, are comparatively
 resilient, since they measure the actual result rather than the volume of
 activity that produced it.
@@ -73,11 +73,11 @@ activity that produced it.
 ### Re-examine deployment frequency and lead time specifically, with
 heightened guardrail attention
 
-Chapter 2.2 already warned about substitution gaming, splitting meaningful
+Chapter 2.9 already warned about substitution gaming, splitting meaningful
 work into trivial deploys to inflate the count. Generative AI makes this
 specific gaming pattern dramatically cheaper and easier to produce, even
 unintentionally, since AI-assisted trivial changes are now nearly free to
-generate. Tighten your change-failure-rate guardrail (chapter 2.4)
+generate. Tighten your change-failure-rate guardrail (chapter 2.9)
 specifically in proportion to how heavily a team has adopted AI-assisted
 development, and watch deploy size trends even more closely than before.
 
@@ -255,7 +255,7 @@ metrics governance cadence.
   uncritically:** risks celebrating a metric that has quietly stopped
   correlating with real value.
 - **Reporting deployment frequency or output volume increases without the
-  paired stability guardrail:** repeats chapter 2.4's warning with
+  paired stability guardrail:** repeats chapter 2.9's warning with
   significantly higher stakes under AI-assisted development.
 - **Assuming AI-generated code carries the same defect profile as
   human-written code without checking:** an untested assumption that could

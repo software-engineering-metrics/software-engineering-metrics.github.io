@@ -16,8 +16,9 @@ developer productivity through a single, easily gamed proxy like lines of
 code or commit count. SPACE spans five dimensions: satisfaction and
 well-being, performance, activity, communication and collaboration, and
 efficiency and flow. The framework's central discipline, and the reason this
-part treats it with the same depth Part 2 gave DORA, is that no single
-dimension on its own is trustworthy; the value comes specifically from
+part treats it with the same rigor Part 2 applies to its own flow metrics,
+is that no single dimension on its own is trustworthy; the value comes
+specifically from
 holding all five in view together, so that a team cannot look good on one
 axis by quietly damaging another.
 

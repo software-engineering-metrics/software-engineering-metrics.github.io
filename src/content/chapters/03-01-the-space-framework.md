@@ -164,7 +164,7 @@ resisting the pull toward activity-only metrics as the team starts to grow
 past the size where informal awareness covers everything.
 
 **Small business.** Without a dedicated people-analytics function, keep it
-simple: pair whatever delivery data you already have (chapter 2.1) with a
+simple: pair whatever delivery data you already have (chapter 2.9) with a
 short, informal, regular check-in on satisfaction, even a simple one-question
 pulse survey. That minimal pairing already captures the framework's core
 discipline far better than an activity-only dashboard.
@@ -194,7 +194,7 @@ analysis (chapter 3.5), leadership discovered that the team with the
 highest activity numbers also had the lowest satisfaction scores and the
 highest voluntary attrition rate over the following year. The activity
 numbers alone had been actively misleading; the fuller picture led to a
-deliberate reduction in that team's concurrent workload (chapter 2.7's WIP
+deliberate reduction in that team's concurrent workload (chapter 2.5's WIP
 principle applied at the human level) and a measurable recovery in both
 satisfaction and, eventually, sustainable performance.
 

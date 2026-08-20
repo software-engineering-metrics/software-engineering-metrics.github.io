@@ -5,7 +5,7 @@ was the scarce, effortful resource. Generative AI tools have changed that
 premise faster than most organizations' metrics have caught up. When a
 tool can produce a plausible-looking pull request in seconds, several
 metrics this book covers in earlier parts, activity counts most directly
-(chapter 3.4), and to a real extent raw deployment frequency (chapter 2.2)
+(chapter 3.4), and to a real extent raw deployment frequency (chapter 2.9)
 and even test coverage (chapter 4.2) if pursued carelessly, stop measuring
 what they used to measure. This part exists because a metrics programme that does not
 explicitly reckon with this shift risks confidently reporting numbers that

@@ -62,10 +62,11 @@ governance concrete, chapter 1.5 makes the data concrete, and chapter 1.6
 gives you the statistical judgement to avoid being fooled by noise even after
 governance and instrumentation are sound.
 
-Everything downstream depends on this part. The DORA metrics in Part 2 and
-the SPACE framework in Part 3 are both, in effect, worked examples of the
-outcome-weighting and guardrail-pairing principles set out in chapters 1.2 and
-1.3. The dashboard design guidance in chapter 8.1 assumes the governance model
+Everything downstream depends on this part. Part 2's flow metrics and DORA
+metrics, and the SPACE framework in Part 3, are all, in effect, worked
+examples of the outcome-weighting and guardrail-pairing principles set out
+in chapters 1.2 and 1.3. The dashboard design guidance in chapter 8.1
+assumes the governance model
 from chapter 1.4. And the maturity model that closes every chapter in this
 book is, underneath its five levels, a maturity model for exactly the
 discipline this part introduces: measuring like you mean it, and checking

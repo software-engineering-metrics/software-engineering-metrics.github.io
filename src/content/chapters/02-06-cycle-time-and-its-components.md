@@ -2,14 +2,15 @@
 
 ## Overview and motivation
 
-**Cycle time** is the internal breakdown of lead time (chapter 2.3) into its
-constituent stages: coding time, review time, testing time, and deploy time,
-sometimes further split into pickup time (how long a change waits before
-anyone starts working on it) and active time (how long it takes once
-someone does). Where lead time gives you a single number for how long a
-change takes end to end, [cycle time](https://en.wikipedia.org/wiki/Cycle_time) tells you where that time actually goes,
-which is the diagnostic layer chapter 2.1 promised sits underneath DORA's
-summary metrics.
+**Cycle time** is the internal breakdown of a change's flow time
+(chapter 2.4) into its constituent engineering stages: coding time, review
+time, testing time, and deploy time, sometimes further split into pickup
+time (how long a change waits before anyone starts working on it) and
+active time (how long it takes once someone does). Where flow time gives
+you a single number for how long a change takes end to end through the
+whole value stream, [cycle time](https://en.wikipedia.org/wiki/Cycle_time) tells you where that time actually goes
+once it reaches engineering, which is the diagnostic layer chapter 2.4
+promised sits underneath its own summary number.
 
 This distinction matters because "lead time is too long" is not actionable
 on its own. A team whose lead time is dominated by coding time needs a
@@ -34,14 +35,14 @@ explanation.
   together, with cycle time as the diagnostic and lead time as the summary.
 - **Wait time usually dominates active time.** Most delay in software
   delivery comes from work sitting idle in a queue, not from active effort
-  (chapter 2.7 covers this directly through flow efficiency).
+  (chapter 2.5 covers this directly through flow efficiency).
 - **Decompose by stage before proposing a fix.** A fix aimed at the wrong
   stage wastes effort and can demoralize a team asked to "work faster" when
   the real bottleneck was elsewhere.
 - **A shared bottleneck across many teams is a platform investment
   opportunity,** not just a series of individual team problems.
-- **Cycle-time data is exposed to the same gaming risks as lead time**
-  (chapter 2.3): watch for stage boundaries that quietly shift to flatter a
+- **Cycle-time data is exposed to the same gaming risks as flow time**
+  (chapter 2.4): watch for stage boundaries that quietly shift to flatter a
   number.
 
 ## Recommendations
@@ -86,7 +87,7 @@ change rather than an unrelated shift elsewhere.
 
 ### Watch for stage-boundary gaming
 
-Just as lead time's start and end points can drift (chapter 2.3), individual
+Just as flow time's start and end points can drift (chapter 2.4), individual
 cycle-time stage boundaries can shift in ways that flatter a specific
 stage's number without any real improvement, for example, marking a review
 "started" the moment a reviewer is assigned rather than when they actually
@@ -136,7 +137,7 @@ bottleneck worth the extra instrumentation investment.
 
 5. **Has any cycle-time stage boundary in our instrumentation drifted from
    its documented definition over time?** Stage boundaries are exposed to
-   the same definitional drift as lead time itself (chapter 2.3). Audit a
+   the same definitional drift as flow time itself (chapter 2.4). Audit a
    sample of recent stage-transition events against the written definition.
 
 6. **How does a review-heavy culture versus a trust-heavy culture show up
@@ -216,7 +217,7 @@ more engineering effort over time than the instrumentation itself costs.
 - **Reacting to a lead-time regression without cycle-time diagnosis:**
   frequently leads to fixing the wrong stage.
 - **Assuming active effort, not wait time, is the dominant cost:** usually
-  wrong; queueing dominates in most real delivery pipelines (chapter 2.7).
+  wrong; queueing dominates in most real delivery pipelines (chapter 2.5).
 - **Missing a shared, cross-team bottleneck by only reviewing cycle time
   team by team:** leaves a high-leverage platform fix undiscovered.
 - **Setting a vague overall lead-time target with no stage-specific
@@ -255,17 +256,18 @@ more engineering effort over time than the instrumentation itself costs.
 
 ## Key takeaways
 
-- Cycle time **decomposes lead time** into stages, coding, review, testing,
-  deploy, and is the diagnostic layer underneath DORA's summary metrics.
+- Cycle time **decomposes flow time** into engineering stages, coding,
+  review, testing, deploy, and is the diagnostic layer underneath that
+  summary number.
 - Separate **wait time from active time** within each stage; queueing
-  usually dominates active effort (chapter 2.7).
+  usually dominates active effort (chapter 2.5).
 - Look for **shared bottlenecks across teams** before assuming a slowdown is
   team-specific; a shared cause is often a platform investment opportunity.
 - Set **stage-specific improvement targets**, not vague overall goals, so
   teams know exactly where to focus.
 - Stage boundaries are exposed to the same **definitional drift** risk as
-  lead time itself; audit them periodically.
-- Chapter 2.9 gives the underlying mathematics, Little's law, for why work
+  flow time itself; audit them periodically.
+- Chapter 2.7 gives the underlying mathematics, Little's law, for why work
   in process and cycle time move together.
 
 ## References and further reading

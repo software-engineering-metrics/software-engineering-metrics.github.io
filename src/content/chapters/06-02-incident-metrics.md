@@ -9,12 +9,12 @@ vocabulary for measuring how well an organization handles this: **mean time
 to detect (MTTD)**, how long before the organization notices something is
 wrong; **mean time to acknowledge (MTTA)**, how long before someone takes
 ownership of responding; **mean time to resolve** or **recover (MTTR)**, how
-long until service is restored, the same concept chapter 2.5 covered
+long until service is restored, the same concept chapter 2.9 covered
 specifically for deployment-caused failures, now generalized to any
 incident regardless of cause; and **incident frequency**, simply how often
 incidents occur at all.
 
-This chapter's central concern, echoing chapter 2.4's treatment of change
+This chapter's central concern, echoing chapter 2.9's treatment of change
 failure rate, is that these numbers are only as trustworthy as the
 organizational culture around reporting and classifying incidents honestly.
 A team that fears blame for an incident has every incentive to under-report,
@@ -26,7 +26,7 @@ chapter treats it as a prerequisite for trustworthy incident data, not an
 optional cultural nicety layered on top of the metrics.
 
 For large teams, incident metrics reveal whether an organization's
-detection and response capability, chapter 2.5's rollback tooling among
+detection and response capability, chapter 2.9's rollback tooling among
 other investments, actually works under real, varied conditions, not just
 the specific deployment-caused failure scenario that chapter covered.
 Enterprise and government organizations operating critical infrastructure
@@ -43,8 +43,8 @@ public that incidents are handled competently and improving over time.
   distinct fixes.** A slow overall recovery time can hide very different
   underlying problems depending on which phase is actually slow.
 - **Incident frequency and MTTR are a paired signal**, similar to DORA's
-  change failure rate and recovery time (chapters 2.4, 2.5): neither alone
-  tells the full story.
+  change failure rate and recovery time (chapter 2.9): neither alone tells
+  the full story.
 - **Severity classification needs the same rigor as escaped defect
   classification** (chapter 5.1): consistent, documented criteria, not ad
   hoc judgement.
@@ -62,7 +62,7 @@ separately, rather than only a single, blended total. Each phase points to a
 different fix: slow detection points to a monitoring and alerting gap, slow
 acknowledgement points to an on-call process or escalation problem, and slow
 resolution points to a tooling, runbook, or diagnostic capability gap
-(chapter 2.5 covers this specifically for deployment-caused failures).
+(chapter 2.9 covers this specifically for deployment-caused failures).
 
 ### Build and protect a genuinely blameless postmortem process
 
@@ -143,8 +143,8 @@ individual who happened to be present when it occurred.
 
 4. **Do we review incident frequency and MTTR together, or does one get
    more attention than the other?** Check your actual reporting practice
-   and reviews for this pairing, mirroring the same discipline chapters 2.4
-   and 2.5 recommend for the DORA stability metrics.
+   and reviews for this pairing, mirroring the same discipline chapter 2.9
+   recommends for the DORA stability metrics.
 
 5. **What percentage of our postmortem action items from the last six
    months have actually been completed?** If you do not currently track

@@ -201,7 +201,7 @@ comparable to any other. Leadership could not answer a basic question: which
 of our ten strategic platform investments is actually delivering faster
 software. The fix was not more metrics, it was fewer, better ones: the
 organization defined a shared, decision-driven core of DORA metrics
-(chapter 2.1) computed identically everywhere from the same pipeline data,
+(chapter 2.9) computed identically everywhere from the same pipeline data,
 retired forty team-specific dashboards, and could finally compare investment
 areas on a common basis within two quarters.
 

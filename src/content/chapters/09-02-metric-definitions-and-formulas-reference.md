@@ -15,6 +15,8 @@ Use this as a quick lookup, not a substitute for the chapter itself.
 | Cycle time | Sum of stage durations: coding + pickup + review + test + deploy | 2.6 |
 | Flow efficiency | Active work time / Total elapsed time x 100% | 2.7 |
 | Time to first review | Time from pull request opened to first substantive reviewer response | 2.8 |
+| Little's law | Work in process = Arrival rate x Cycle time | 2.9 |
+| Utilization | Arrival rate / Service rate | 2.9 |
 
 ## Developer experience (Part 3)
 

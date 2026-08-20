@@ -22,6 +22,7 @@ each part). See also the [Introduction](introduction.md).
 - [2.6 Cycle time and its components](../chapters/02-06-cycle-time-and-its-components.md)
 - [2.7 Flow efficiency and work in process](../chapters/02-07-flow-efficiency-and-work-in-process.md)
 - [2.8 Pull request and code review metrics](../chapters/02-08-pull-request-and-code-review-metrics.md)
+- [2.9 Queueing theory and Little's law](../chapters/02-09-queueing-theory-and-littles-law.md)
 
 ### Part 3: Developer Experience and the SPACE Framework
 - [3.0 Introduction](../chapters/03-00-developer-experience-and-space.md)

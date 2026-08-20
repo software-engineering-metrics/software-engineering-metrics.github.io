@@ -52,6 +52,9 @@ than anecdote, that a major delivery transformation actually worked.
 - **2.8 Pull request and code review metrics:** The metrics that live inside
   a single stage of the delivery pipeline, and how they can distort review
   quality if used carelessly.
+- **2.9 Queueing theory and Little's law:** The mathematics underneath cycle
+  time and work in process, and why wait time on a shared resource explodes
+  as utilization approaches its limit.
 
 ## How these chapters interrelate
 
@@ -61,8 +64,13 @@ consequential deserves. Chapters 2.6 through 2.8 zoom in on the mechanics
 underneath lead time specifically: cycle time decomposes it into stages, flow
 efficiency and work in process explain why those stages are often slower
 than they look, and pull request metrics cover the single stage most teams
-can improve fastest. Read together, this part moves from the framework level
-down to the practical, team-level levers a group can pull this quarter.
+can improve fastest. Chapter 2.9 closes the part by naming the mathematics
+that the previous two chapters were quietly relying on: queueing theory and
+Little's law explain, in provable terms, why work in process and cycle time
+move together and why a shared resource's wait time does not degrade
+gracefully as it nears capacity. Read together, this part moves from the
+framework level down to the practical, team-level levers a group can pull
+this quarter.
 
 This part's guardrail discipline connects directly back to chapter 1.2:
 every speed metric here (deployment frequency, lead time, cycle time) is

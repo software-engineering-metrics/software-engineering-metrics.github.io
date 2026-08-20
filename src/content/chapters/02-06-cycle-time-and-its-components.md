@@ -265,6 +265,8 @@ more engineering effort over time than the instrumentation itself costs.
   teams know exactly where to focus.
 - Stage boundaries are exposed to the same **definitional drift** risk as
   lead time itself; audit them periodically.
+- Chapter 2.9 gives the underlying mathematics, Little's law, for why work
+  in process and cycle time move together.
 
 ## References and further reading
 

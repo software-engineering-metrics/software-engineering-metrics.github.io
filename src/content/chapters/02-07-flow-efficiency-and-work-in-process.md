@@ -278,6 +278,8 @@ itself.
   generic "reduce wait time" directive.
 - Watch for WIP limits **eroding through routine exceptions**; treat every
   exception as a deliberate, visible decision.
+- Chapter 2.9 formalizes this relationship as Little's law: work in process
+  equals arrival rate times cycle time, for any stable queue.
 
 ## References and further reading
 

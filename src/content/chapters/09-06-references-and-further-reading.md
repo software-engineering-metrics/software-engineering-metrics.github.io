@@ -66,6 +66,13 @@ theme; many works are cited from multiple chapters.
   Challenges of Modern Code Review." *ICSE*, 2013.
 - Wiegers, Karl E. *Peer Reviews in Software: A Practical Guide*.
   Addison-Wesley, 2002.
+- Little, John D. C. "A Proof for the Queuing Formula: L = λW." *Operations
+  Research*, 1961.
+- Kleinrock, Leonard. *Queueing Systems, Volume 1: Theory*.
+  Wiley-Interscience, 1975.
+- Wescott, Bob. *The Every Computer Performance Book: How to Avoid and
+  Solve Performance Problems on the Computer Systems You Work With*.
+  CreateSpace Independent Publishing Platform, 2013.
 
 ## Developer experience and people
 

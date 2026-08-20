@@ -65,6 +65,11 @@ and highly complex, identified through hotspot analysis. See chapter 4.3.
 its successful deployment in production. One of the four DORA metrics. See
 chapter 2.3.
 
+**Little's law.** The proof that the average number of items in a stable
+queue equals the average arrival rate multiplied by the average time an
+item spends in the system. Applied to delivery, work in process equals
+arrival rate times cycle time. See chapter 2.9.
+
 **Metric tree.** A structure connecting a top-level outcome metric down
 through its drivers to the operational metrics individual teams own. See
 chapter 1.3.
@@ -89,6 +94,10 @@ chapter 1.3.
 
 **Outcome telemetry.** Continuous, instrumented measurement of real
 outcomes rather than activity or output. See chapter 7.4.
+
+**Queueing theory.** The mathematical study of waiting lines, applied to
+delivery pipelines to explain how work in process, arrival rate, and
+utilization drive wait time. See chapter 2.9.
 
 **ROI (return on investment).** The financial return of an initiative
 relative to its cost, built here from documented cost and outcome evidence
@@ -119,6 +128,11 @@ not just upfront cost. See chapter 5.5.
 **Unit economics.** Cost expressed per meaningful unit of value delivered
 (per customer, per transaction), rather than as an opaque total. See
 chapter 5.4.
+
+**Utilization.** The proportion of a resource's available capacity that is
+busy, calculated as arrival rate divided by service rate. Wait time grows
+sharply, not gradually, as utilization approaches full capacity. See
+chapter 2.9.
 
 **Vanity metric.** A metric that reliably rises, looks impressive, and
 changes no decision. See chapter 1.1.

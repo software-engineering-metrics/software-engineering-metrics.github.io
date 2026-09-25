@@ -1,5 +1,10 @@
 <script>
-  import manifest from '$lib/manifest.json';
+  import { page } from '$app/state';
+  import { getManifest } from '$lib/manifests.js';
+  import { localePrefix } from '$lib/locales.js';
+
+  let prefix = $derived(localePrefix(page.params.locale));
+  let manifest = $derived(getManifest(page.params.locale));
 </script>
 
 <svelte:head>
@@ -20,9 +25,9 @@
     what these numbers mean.
   </p>
   <div class="button-row">
-    <a class="button button-primary" href="/front-matter/what-are-software-engineering-metrics/">Start reading</a>
-    <a class="button button-secondary" href="/table-of-contents/">Table of contents</a>
-    <a class="button button-secondary" href="/examples/">Worked examples</a>
+    <a class="button button-primary" href="{prefix}/front-matter/what-are-software-engineering-metrics/">Start reading</a>
+    <a class="button button-secondary" href="{prefix}/table-of-contents/">Table of contents</a>
+    <a class="button button-secondary" href="{prefix}/examples/">Worked examples</a>
   </div>
   <div class="stat-row">
     <div class="stat">
@@ -67,7 +72,7 @@
   <div class="card-grid">
     {#each manifest.parts as part (part.number)}
       {@const intro = part.chapters.find((c) => c.chapter === 0)}
-      <a class="card" href="/chapters/{(intro ?? part.chapters[0]).slug}/">
+      <a class="card" href="{prefix}/chapters/{(intro ?? part.chapters[0]).slug}/">
         <h3 class="card-heading">Part {part.number}: {part.title}</h3>
         <p class="card-description">
           {part.chapters.length}
@@ -92,7 +97,7 @@
     metrics mean, not just a new column on the dashboard.
   </p>
   <p style="text-align: center; margin-top: 2rem;">
-    <a class="button button-secondary" href="/table-of-contents/">See the full table of contents →</a>
+    <a class="button button-secondary" href="{prefix}/table-of-contents/">See the full table of contents →</a>
   </p>
 </section>
 
@@ -104,8 +109,8 @@
       in the <a href="https://github.com/software-engineering-metrics/software-engineering-metrics"
         >software-engineering-metrics</a
       >
-      content repository; see the <a href="/project/">project page</a> for how the two fit
-      together, and <a href="/contributing/">contributing</a> for how to help.
+      content repository; see the <a href="{prefix}/project/">project page</a> for how the two fit
+      together, and <a href="{prefix}/contributing/">contributing</a> for how to help.
     </p>
   </div>
 </section>

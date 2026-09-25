@@ -10,6 +10,6 @@ export function entries() {
 export async function load({ params }) {
   const entry = manifest.examples.find((c) => c.slug === params.slug);
   if (!entry) error(404, 'Example not found');
-  const mod = await import(`../../../content/examples/${params.slug}.md`);
+  const mod = await import(`$content/en-us/examples/${params.slug}.md`);
   return { entry, content: mod.default };
 }

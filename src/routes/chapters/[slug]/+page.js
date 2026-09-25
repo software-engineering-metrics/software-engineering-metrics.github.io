@@ -18,7 +18,7 @@ export async function load({ params }) {
   // A universal load function may return non-serializable values (like a
   // Svelte component constructor) because it re-runs in the browser on
   // client-side navigation rather than being passed across the network.
-  const mod = await import(`../../../content/chapters/${params.slug}.md`);
+  const mod = await import(`$content/en-us/chapters/${params.slug}.md`);
 
   return {
     chapter,

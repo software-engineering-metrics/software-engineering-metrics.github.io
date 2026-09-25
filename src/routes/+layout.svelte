@@ -1,25 +1,30 @@
 <script>
   import { page } from '$app/state';
   import Sidebar from '$lib/Sidebar.svelte';
+  import LocalePicker from '$lib/LocalePicker.svelte';
+  import { localePrefix } from '$lib/locales.js';
 
   let { children } = $props();
 
-  const navLinks = [
-    { href: '/', label: 'Home' },
-    { href: '/front-matter/what-are-software-engineering-metrics/', label: 'Start here' },
-    { href: '/table-of-contents/', label: 'Table of contents' },
-    { href: '/examples/', label: 'Examples' },
-    { href: '/contributing/', label: 'Contributing' },
-    { href: '/project/', label: 'Project' }
-  ];
+  let prefix = $derived(localePrefix(page.params.locale));
+
+  let navLinks = $derived([
+    { href: `${prefix}/`, label: 'Home' },
+    { href: `${prefix}/front-matter/what-are-software-engineering-metrics/`, label: 'Start here' },
+    { href: `${prefix}/table-of-contents/`, label: 'Table of contents' },
+    { href: `${prefix}/examples/`, label: 'Examples' },
+    { href: `${prefix}/contributing/`, label: 'Contributing' },
+    { href: `${prefix}/project/`, label: 'Project' }
+  ]);
 
   let pathname = $derived(page.url.pathname);
-  let showSidebar = $derived(pathname.startsWith('/chapters/') || pathname.startsWith('/front-matter/'));
-  let currentSlug = $derived(showSidebar ? (pathname.split('/').filter(Boolean).pop() ?? null) : null);
+  let pathAfterLocale = $derived(prefix && pathname.startsWith(prefix) ? pathname.slice(prefix.length) || '/' : pathname);
+  let showSidebar = $derived(pathAfterLocale.startsWith('/chapters/') || pathAfterLocale.startsWith('/front-matter/'));
+  let currentSlug = $derived(showSidebar ? (pathAfterLocale.split('/').filter(Boolean).pop() ?? null) : null);
 
   /** @param {string} href */
   function isCurrent(href) {
-    if (href === '/') return pathname === '/';
+    if (href === `${prefix}/`) return pathname === href;
     return pathname === href;
   }
 </script>
@@ -28,7 +33,7 @@
 
 <header class="site-header">
   <div class="site-header-inner">
-    <a class="site-brand" href="/" aria-label="Software Engineering Metrics home">
+    <a class="site-brand" href="{prefix}/" aria-label="Software Engineering Metrics home">
       <img class="site-brand-mark" src="/assets/favicon.svg" alt="" aria-hidden="true" />
       <span>Software Engineering Metrics</span>
     </a>
@@ -38,6 +43,7 @@
       {/each}
       <a href="https://github.com/software-engineering-metrics/software-engineering-metrics">GitHub</a>
     </nav>
+    <LocalePicker />
   </div>
 </header>
 
@@ -59,8 +65,8 @@
     <div class="site-footer-links">
       <a href="https://github.com/software-engineering-metrics/software-engineering-metrics">Content source</a>
       <a href="https://github.com/software-engineering-metrics/software-engineering-metrics.github.io">Site source</a>
-      <a href="/table-of-contents/">Table of contents</a>
-      <a href="/contributing/">Contributing</a>
+      <a href="{prefix}/table-of-contents/">Table of contents</a>
+      <a href="{prefix}/contributing/">Contributing</a>
     </div>
   </div>
 </footer>

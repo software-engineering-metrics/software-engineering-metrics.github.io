@@ -32,6 +32,13 @@ const config = {
       fallback: '404.html',
       strict: true
     }),
+    // Lets every route's +page.js dynamically import content by locale with
+    // one fixed-depth specifier ($content/<locale>/<section>/<slug>.md),
+    // regardless of how deeply the route itself is nested (unprefixed
+    // default-locale routes vs. the [locale]-prefixed ones).
+    alias: {
+      $content: 'src/content'
+    },
     prerender: {
       // Every internal link resolves via remark-resolve-content-links.mjs —
       // fail the build (the default) if a future content change breaks one.

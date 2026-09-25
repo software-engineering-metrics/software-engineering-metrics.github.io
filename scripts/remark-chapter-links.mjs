@@ -1,6 +1,7 @@
 // A remark plugin that auto-links plain-text chapter cross-references, e.g.
 // "see chapter 2.1" or "chapters 2.3 and 2.4", to the matching /chapters/
-// route. This mirrors the guide_xref-style linking used by the sibling
+// route (locale-prefixed for every locale but the default). This mirrors
+// the guide_xref-style linking used by the sibling
 // software-engineering-guide.github.io site, reimplemented for the mdsvex
 // build here.
 //
@@ -11,25 +12,44 @@ import { visit } from 'unist-util-visit';
 import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { LOCALE_CODES, DEFAULT_LOCALE, localePrefix } from './locales.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const manifestPath = path.resolve(here, '../src/lib/manifest.json');
+const libDir = path.resolve(here, '../src/lib');
 
-function loadChapterSlugs() {
-  if (!existsSync(manifestPath)) return {};
-  const manifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
-  return manifest.chaptersByDecimal ?? {};
+function manifestPathFor(locale) {
+  return locale === DEFAULT_LOCALE
+    ? path.join(libDir, 'manifest.json')
+    : path.join(libDir, 'manifest', `${locale}.json`);
 }
+
+function loadChaptersByDecimal(locale) {
+  const p = manifestPathFor(locale);
+  if (!existsSync(p)) return {};
+  return JSON.parse(readFileSync(p, 'utf-8')).chaptersByDecimal ?? {};
+}
+
+const CHAPTERS_BY_LOCALE = Object.fromEntries(
+  LOCALE_CODES.map((locale) => [locale, loadChaptersByDecimal(locale)])
+);
 
 // "chapter(s) 1.2" / "chapter(s) 1.2 and 3.4" / "chapter(s) 1.2, 3.4, and 5.6"
 const MENTION_RE = /\bchapters?\s+(\d{1,2}\.\d{1,2})((?:\s*(?:,|and)\s*\d{1,2}\.\d{1,2})*)/gi;
 const DECIMAL_RE = /\d{1,2}\.\d{1,2}/g;
 
 export function remarkChapterLinks() {
-  const chaptersByDecimal = loadChapterSlugs();
-  if (Object.keys(chaptersByDecimal).length === 0) return () => {};
+  return (tree, file) => {
+    const sourcePath = file?.filename ?? file?.path ?? file?.history?.[0];
+    const contentRootMarker = `${path.sep}src${path.sep}content${path.sep}`;
+    const markerIndex = sourcePath ? sourcePath.indexOf(contentRootMarker) : -1;
+    const ownLocale =
+      markerIndex === -1
+        ? DEFAULT_LOCALE
+        : sourcePath.slice(markerIndex + contentRootMarker.length).split(path.sep)[0];
+    const chaptersByDecimal = CHAPTERS_BY_LOCALE[ownLocale] ?? CHAPTERS_BY_LOCALE[DEFAULT_LOCALE];
+    const prefix = localePrefix(ownLocale);
+    if (Object.keys(chaptersByDecimal).length === 0) return;
 
-  return (tree) => {
     visit(tree, 'text', (node, index, parent) => {
       if (!parent || index == null) return;
       // Skip text inside links/code — visit only reaches plain text nodes,
@@ -64,7 +84,7 @@ export function remarkChapterLinks() {
           if (target) {
             segments.push({
               type: 'link',
-              url: `/chapters/${target.slug}/`,
+              url: `${prefix}/chapters/${target.slug}/`,
               title: target.heading,
               children: [{ type: 'text', value: decimal }]
             });

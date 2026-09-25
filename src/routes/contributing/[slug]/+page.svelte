@@ -1,7 +1,10 @@
 <script>
+  import { page } from '$app/state';
   import Breadcrumb from '$lib/Breadcrumb.svelte';
+  import { localePrefix } from '$lib/locales.js';
 
   let { data } = $props();
+  let prefix = $derived(localePrefix(page.params.locale));
 </script>
 
 <svelte:head>
@@ -9,7 +12,7 @@
 </svelte:head>
 
 <Breadcrumb
-  items={[{ label: 'Home', href: '/' }, { label: 'Contributing', href: '/contributing/' }, { label: data.entry.title }]}
+  items={[{ label: 'Home', href: `${prefix}/` }, { label: 'Contributing', href: `${prefix}/contributing/` }, { label: data.entry.title }]}
 />
 
 <data.content />

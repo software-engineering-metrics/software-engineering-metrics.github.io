@@ -10,6 +10,6 @@ export function entries() {
 export async function load({ params }) {
   const entry = manifest.project.find((c) => c.slug === params.slug);
   if (!entry) error(404, 'Page not found');
-  const mod = await import(`../../../content/project/${params.slug}.md`);
+  const mod = await import(`$content/en-us/project/${params.slug}.md`);
   return { entry, content: mod.default };
 }

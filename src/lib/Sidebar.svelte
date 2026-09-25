@@ -1,8 +1,12 @@
 <script>
-  import manifest from '$lib/manifest.json';
+  import { page } from '$app/state';
+  import { getManifest } from '$lib/manifests.js';
+  import { localePrefix } from '$lib/locales.js';
 
   let { currentSlug = null } = $props();
 
+  let prefix = $derived(localePrefix(page.params.locale));
+  let manifest = $derived(getManifest(page.params.locale));
   let query = $state('');
 
   /** @param {import('$lib/manifest.json').default['chapters'][number]} chapter @param {string} q */
@@ -31,7 +35,7 @@
           {#each visible as chapter (chapter.slug)}
             <li>
               <a
-                href="/chapters/{chapter.slug}/"
+                href="{prefix}/chapters/{chapter.slug}/"
                 aria-current={chapter.slug === currentSlug ? 'page' : undefined}
               >
                 <span class="decimal">{chapter.decimal}</span>{chapter.title}

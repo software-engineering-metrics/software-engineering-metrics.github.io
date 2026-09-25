@@ -180,6 +180,20 @@ kbd {
   background: var(--lily-tint);
 }
 
+/* LocalePicker.svelte: Lily class-hook component, one class, no shipped CSS */
+.locale-picker {
+  font: inherit;
+  font-size: 0.9rem;
+  color: var(--lily-text);
+  background: var(--lily-card-bg);
+  border: 1px solid var(--lily-border-strong);
+  border-radius: var(--lily-radius);
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+.locale-picker:hover { border-color: var(--lily-primary); }
+.locale-picker:focus-visible { outline: 3px solid var(--lily-primary); outline-offset: 1px; }
+
 /* Main content */
 
 .site-main {

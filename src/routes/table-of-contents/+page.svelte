@@ -1,6 +1,10 @@
 <script>
-  import manifest from '$lib/manifest.json';
+  import { page } from '$app/state';
+  import { getManifest } from '$lib/manifests.js';
+  import { localePrefix } from '$lib/locales.js';
 
+  let prefix = $derived(localePrefix(page.params.locale));
+  let manifest = $derived(getManifest(page.params.locale));
   let query = $state('');
 
   /** @param {import('$lib/manifest.json').default['chapters'][number]} chapter @param {string} q */
@@ -22,7 +26,7 @@
   <h1>Table of contents</h1>
   <p>
     Parts are whole numbers; chapters are decimals (chapter <strong>N.0</strong> introduces each
-    part). See also <a href="/front-matter/introduction/">the introduction</a>.
+    part). See also <a href="{prefix}/front-matter/introduction/">the introduction</a>.
   </p>
 </div>
 
@@ -42,7 +46,7 @@
     <ul class="toc-chapter-list">
       {#each visible as chapter (chapter.slug)}
         <li>
-          <a href="/chapters/{chapter.slug}/"><span class="decimal">{chapter.decimal}</span>{chapter.title}</a>
+          <a href="{prefix}/chapters/{chapter.slug}/"><span class="decimal">{chapter.decimal}</span>{chapter.title}</a>
         </li>
       {/each}
     </ul>

@@ -1,7 +1,11 @@
 <script>
-  import manifest from '$lib/manifest.json';
+  import { page } from '$app/state';
+  import { getManifest } from '$lib/manifests.js';
+  import { localePrefix } from '$lib/locales.js';
 
   let { data } = $props();
+  let prefix = $derived(localePrefix(page.params.locale));
+  let manifest = $derived(getManifest(page.params.locale));
 </script>
 
 <svelte:head>
@@ -12,7 +16,7 @@
 
 <ul class="card-grid">
   {#each manifest.contributing as entry (entry.slug)}
-    <a class="card" href="/contributing/{entry.slug}/">
+    <a class="card" href="{prefix}/contributing/{entry.slug}/">
       <h2 class="card-heading">{entry.title}</h2>
     </a>
   {/each}

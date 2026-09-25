@@ -1,5 +1,6 @@
 {
   "generatedBy": "scripts/generate-manifest.mjs",
+  "locale": "en-us",
   "parts": [
     {
       "number": 1,
@@ -72,7 +73,7 @@
     },
     {
       "number": 2,
-      "title": "Delivery and Flow Metrics",
+      "title": "Flow Metrics",
       "chapters": [
         {
           "part": 2,

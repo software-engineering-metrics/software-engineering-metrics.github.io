@@ -1,8 +1,16 @@
 name: Deploy to GitHub Pages
 
+# This repo holds no site source of its own any more. The source lives at
+# software-engineering-metrics.github.io/ inside the software-engineering-metrics
+# monorepo (https://github.com/software-engineering-metrics/software-engineering-metrics),
+# because publishing at this repo's own root domain requires the deploy to
+# run as a workflow of THIS repo. That monorepo's own CI sends the
+# monorepo-updated repository_dispatch below after every push to its main
+# branch; workflow_dispatch is the manual fallback.
+
 on:
-  push:
-    branches: [main]
+  repository_dispatch:
+    types: [monorepo-updated]
   workflow_dispatch:
 
 permissions:
@@ -18,8 +26,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout the software-engineering-metrics monorepo
         uses: actions/checkout@v4
+        with:
+          repository: software-engineering-metrics/software-engineering-metrics
+          ref: ${{ github.event.client_payload.ref || 'main' }}
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
@@ -31,14 +42,18 @@ jobs:
         with:
           node-version: 20
           cache: pnpm
+          cache-dependency-path: software-engineering-metrics.github.io/pnpm-lock.yaml
 
       - name: Install dependencies
+        working-directory: software-engineering-metrics.github.io
         run: pnpm install --frozen-lockfile
 
       - name: Check
+        working-directory: software-engineering-metrics.github.io
         run: pnpm run check
 
       - name: Build site
+        working-directory: software-engineering-metrics.github.io
         run: pnpm run build
 
       - name: Configure Pages
@@ -47,7 +62,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build/
+          path: software-engineering-metrics.github.io/build/
 
   deploy:
     needs: build

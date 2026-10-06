@@ -7,8 +7,15 @@ name: Deploy to GitHub Pages
 # run as a workflow of THIS repo. That monorepo's own CI sends the
 # monorepo-updated repository_dispatch below after every push to its main
 # branch; workflow_dispatch is the manual fallback.
+#
+# The monorepo's CI now triggers this by pushing a commit to .deploy-trigger
+# on this repo's main branch over SSH, using a write deploy key (secret
+# PAGES_DEPLOY_KEY in the monorepo), so no personal access token is needed.
+# The repository_dispatch trigger is kept for compatibility.
 
 on:
+  push:
+    branches: [main]
   repository_dispatch:
     types: [monorepo-updated]
   workflow_dispatch:
